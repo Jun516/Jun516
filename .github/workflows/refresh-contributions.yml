@@ -2,6 +2,9 @@ name: Refresh contribution leaderboard
 
 on:
   workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/refresh-contributions.yml'
   schedule:
     - cron: '23 2 * * *'
 
