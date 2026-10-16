@@ -62,7 +62,6 @@
   <a href="https://github.com/plastic-labs/honcho"><strong>plastic-labs/honcho</strong></a><br />
   <sub>Python · Memory library for building stateful agents</sub>
 </p>
-
 <!-- CONTRIBUTIONS:END -->
 
 <p align="right"><sub><a href="https://github.com/Jun516/Jun516/actions/workflows/refresh-contributions.yml">Auto-update workflow</a> · <a href="https://github.com/pulls?q=is%3Apr+is%3Amerged+author%3AJun516">View all merged PRs</a></sub></p>
