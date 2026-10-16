@@ -5,6 +5,7 @@ on:
   push:
     paths:
       - '.github/workflows/refresh-contributions.yml'
+      - 'scripts/update_contributions.py'
   schedule:
     - cron: '23 2 * * *'
 

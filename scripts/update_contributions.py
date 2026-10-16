@@ -103,7 +103,8 @@ def _unique_repo_icon(full):
     return "https://raw.githubusercontent.com/Jun516/Jun516/main/" + urllib.parse.quote(path.as_posix(), safe="/")
 
 
-def format_row(repo, seen_owners):
+def format_project(repo, seen_owners):
+    """Render one full-width README row with a logo and right-aligned badges."""
     full = repo["full"]
     owner = full.split("/", 1)[0]
     if owner.lower() not in seen_owners:
@@ -111,17 +112,27 @@ def format_row(repo, seen_owners):
         src = f"https://github.com/{urllib.parse.quote(owner, safe='')}.png?size=64"
     else:
         src = _unique_repo_icon(full)
-    icon = f'<img src="{escape(src)}" width="28" height="28" alt="" />'
-    name = f'<a href="{escape(repo["url"])}"><b>{escape(full)}</b></a>'
+
+    project_url = escape(repo["url"])
     description = repo["description"].strip()
     tagline = description[:78] + ("…" if len(description) > 78 else "")
     details = " · ".join(v for v in (escape(repo["language"]), escape(tagline)) if v)
-    project = f"{icon} {name}"
-    if details:
-        project += f"<br/><sub>{details}</sub>"
+
     query = urllib.parse.urlencode({"q": "is:pr is:merged author:" + os.environ.get("GH_USERNAME", "Jun516")})
     prs = "https://github.com/" + urllib.parse.quote(full, safe="/") + "/pulls?" + query
-    return f'| {project} | {stars_text(repo["stars"])} | **[{repo["merged"]}]({prs})** |'
+    stars = stars_text(repo["stars"])
+    stars_badge = "https://img.shields.io/badge/Stars-" + urllib.parse.quote(stars, safe="") + "-64748B?style=flat-square"
+    merged_badge = f'https://img.shields.io/badge/Merged%20PRs-{repo["merged"]}-238636?style=flat-square'
+
+    return "\n".join([
+        "<p>",
+        f'  <a href="{project_url}"><img align="left" src="{escape(src)}" width="36" height="36" alt="{escape(full)} logo" /></a>',
+        f'  <a href="{escape(prs)}"><img align="right" src="{escape(merged_badge)}" alt="{repo["merged"]} merged PRs" /></a>',
+        f'  <a href="{project_url}"><img align="right" src="{escape(stars_badge)}" alt="{escape(stars)} stars" /></a>',
+        f'  <a href="{project_url}"><strong>{escape(full)}</strong></a><br />',
+        f'  <sub>{details}</sub>' if details else "  <sub>Open-source project</sub>",
+        "</p>",
+    ])
 
 
 def generate(username, min_stars):
@@ -142,17 +153,16 @@ def generate(username, min_stars):
                      "language": d.get("language") or "", "description": d.get("description") or "",
                      "url": d.get("html_url") or "https://github.com/" + full})
     rows.sort(key=lambda x: (-x["stars"], -x["merged"], x["full"].lower()))
-    table_header = ["| Project | ★ Stars | Merged PRs |", "|:---|---:|---:|"]
     seen_owners = set()
-    formatted_rows = [format_row(row, seen_owners) for row in rows]
+    formatted_rows = [format_project(row, seen_owners) for row in rows]
     if not rows:
         result = "暂无符合条件的已合并公开 PR。"
     else:
-        result = "\n".join(table_header + formatted_rows[:5])
+        result = "\n\n<hr />\n\n".join(formatted_rows[:5])
         if len(rows) > 5:
-            more = "\n".join(table_header + formatted_rows[5:])
+            more = "\n\n<hr />\n\n".join(formatted_rows[5:])
             result += f"\n\n<details>\n<summary>展开其余 {len(rows)-5} 个项目</summary>\n\n{more}\n\n</details>"
-        result += f"\n\n*共 {len(rows)} 个项目，{sum(r['merged'] for r in rows)} 个已合并公开 PR；按 Star 排序。*"
+        result += f"\n\n<sub>共 {len(rows)} 个项目 · {sum(r['merged'] for r in rows)} 个已合并公开 PR · 按 Star 排序</sub>"
     if total > 1000:
         result += "\n\n*GitHub Search 最多返回 1,000 条结果，数据可能不完整。*"
     if min_stars:
