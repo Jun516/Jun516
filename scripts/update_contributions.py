@@ -104,27 +104,31 @@ def _unique_repo_icon(full):
 
 
 def _stats_panel(repo, kind, theme):
-    """Generate compact theme-aware SVG stat panels, with each half linkable."""
+    """Generate transparent, typographically matched SVG metrics for README."""
     full = repo["full"]
     slug = full.replace("/", "__")
-    width = 154 if kind == "stars" else 170
+    width = 144 if kind == "stars" else 156
     label = "Stars" if kind == "stars" else "Merged PRs"
     number = stars_text(repo["stars"]) if kind == "stars" else str(repo["merged"])
     if theme == "dark":
-        background, border, foreground, muted = "#232735", "#45475D", "#F4F5F9", "#B1B5C8"
+        foreground, muted, divider = "#F0F6FC", "#9198A1", "#3D444D"
     else:
-        background, border, foreground, muted = "#F8F8FD", "#DCDDED", "#20253A", "#6A7087"
+        foreground, muted, divider = "#24292F", "#59636E", "#D1D9E0"
+
     if kind == "stars":
-        icon = '  <path d="M16 9.5 19.1 15.7 25.9 16.7 21 21.5 22.2 28.3 16 25.1 9.8 28.3 11 21.5 6.1 16.7 12.9 15.7Z" fill="#F5B424"/>'
+        icon = '  <path d="M16 5.8 19.1 12.1 26.1 13.1 21.1 18 22.3 24.9 16 21.6 9.7 24.9 10.9 18 5.9 13.1 12.9 12.1Z" fill="#E3AB24"/>'
+        divider_line = ""
     else:
-        icon = '  <path d="M11 12v17m0-9h11m0 0v-5m0 5v10" fill="none" stroke="#23A065" stroke-width="2.4" stroke-linecap="round"/><circle cx="11" cy="12" r="3.2" fill="#23A065"/><circle cx="22" cy="15" r="3.2" fill="#23A065"/><circle cx="22" cy="30" r="3.2" fill="#23A065"/>'
+        icon = '  <path d="M13 10v20m0-10h12m0 0v-7m0 7v10" fill="none" stroke="#2DA36A" stroke-width="2" stroke-linecap="round"/><circle cx="13" cy="10" r="2.6" fill="#2DA36A"/><circle cx="25" cy="13" r="2.6" fill="#2DA36A"/><circle cx="25" cy="30" r="2.6" fill="#2DA36A"/>'
+        divider_line = f'  <line x1="1.5" y1="8" x2="1.5" y2="40" stroke="{divider}" stroke-width="1"/>'
+
     svg = "\n".join([
-        f'<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="56" viewBox="0 0 {width} 56" role="img">',
+        f'<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="48" viewBox="0 0 {width} 48" role="img">',
         f'  <title>{html.escape(full)} {label}: {html.escape(number)}</title>',
-        f'  <rect x=".5" y=".5" width="{width-1}" height="55" rx="9" fill="{background}" stroke="{border}"/>',
+        divider_line,
         icon,
-        f'  <text x="36" y="21" font-family="Arial, sans-serif" font-size="12" fill="{muted}">{label}</text>',
-        f'  <text x="36" y="42" font-family="Arial, sans-serif" font-weight="700" font-size="18" fill="{foreground}">{html.escape(number)}</text>',
+        f'  <text x="36" y="18" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="400" fill="{muted}">{label}</text>',
+        f'  <text x="36" y="37" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="16" font-weight="600" fill="{foreground}">{html.escape(number)}</text>',
         "</svg>",
         "",
     ])
@@ -132,7 +136,7 @@ def _stats_panel(repo, kind, theme):
     asset.parent.mkdir(parents=True, exist_ok=True)
     if not asset.exists() or asset.read_text(encoding="utf-8") != svg:
         asset.write_text(svg, encoding="utf-8")
-    return "https://raw.githubusercontent.com/Jun516/Jun516/main/" + urllib.parse.quote(asset.as_posix(), safe="/")
+    return "https://raw.githubusercontent.com/Jun516/Jun516/main/" + urllib.parse.quote(asset.as_posix(), safe="/") + "?v=2"
 
 
 def format_project(repo, seen_owners):
@@ -160,15 +164,15 @@ def format_project(repo, seen_owners):
         return (
             f'  <a href="{escape(url)}"><picture>'
             f'<source media="(prefers-color-scheme: dark)" srcset="{dark}">'
-            f'<img align="right" src="{light}" width="{width}" height="56" alt="{escape(alt)}" />'
+            f'<img align="right" src="{light}" width="{width}" height="48" alt="{escape(alt)}" />'
             f'</picture></a>'
         )
 
     return "\n".join([
         "<p>",
         f'  <a href="{project_url}"><img align="left" src="{escape(src)}" width="36" height="36" alt="{escape(full)} logo" /></a>',
-        linked_picture(prs, "merged", 170, f'{repo["merged"]} merged PRs'),
-        linked_picture(repo["url"], "stars", 154, f'{stars} stars'),
+        linked_picture(prs, "merged", 156, f'{repo["merged"]} merged PRs'),
+        linked_picture(repo["url"], "stars", 144, f'{stars} stars'),
         f'  <a href="{project_url}"><strong>{escape(full)}</strong></a><br />',
         f'  <sub>{details}</sub>' if details else "  <sub>Open-source project</sub>",
         "</p>",

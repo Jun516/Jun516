@@ -1,7 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="170" height="56" viewBox="0 0 170 56" role="img">
+<svg xmlns="http://www.w3.org/2000/svg" width="156" height="48" viewBox="0 0 156 48" role="img">
   <title>opensandbox-group/OpenSandbox Merged PRs: 1</title>
-  <rect x=".5" y=".5" width="169" height="55" rx="9" fill="#232735" stroke="#45475D"/>
-  <path d="M11 12v17m0-9h11m0 0v-5m0 5v10" fill="none" stroke="#23A065" stroke-width="2.4" stroke-linecap="round"/><circle cx="11" cy="12" r="3.2" fill="#23A065"/><circle cx="22" cy="15" r="3.2" fill="#23A065"/><circle cx="22" cy="30" r="3.2" fill="#23A065"/>
-  <text x="36" y="21" font-family="Arial, sans-serif" font-size="12" fill="#B1B5C8">Merged PRs</text>
-  <text x="36" y="42" font-family="Arial, sans-serif" font-weight="700" font-size="18" fill="#F4F5F9">1</text>
+  <line x1="1.5" y1="8" x2="1.5" y2="40" stroke="#3D444D" stroke-width="1"/>
+  <path d="M13 10v20m0-10h12m0 0v-7m0 7v10" fill="none" stroke="#2DA36A" stroke-width="2" stroke-linecap="round"/><circle cx="13" cy="10" r="2.6" fill="#2DA36A"/><circle cx="25" cy="13" r="2.6" fill="#2DA36A"/><circle cx="25" cy="30" r="2.6" fill="#2DA36A"/>
+  <text x="36" y="18" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="400" fill="#9198A1">Merged PRs</text>
+  <text x="36" y="37" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="16" font-weight="600" fill="#F0F6FC">1</text>
 </svg>
