@@ -1,22 +1,40 @@
-# Hi, I'm Jun516 👋
+<h2 align="center">Hi, I'm Qiu 👋</h2>
 
-欢迎来到我的 GitHub 主页。这里展示我参与的开源项目和已合并的 Pull Request。
+<p align="center"><b>AI Agents · Python · TypeScript · Open Source</b></p>
 
-## Open-source contributions
+<p align="center">
+在真实项目中探索 Agent 工程：复现问题、修复缺陷、补充测试，并通过 PR 与维护者协作。
+</p>
 
-按项目当前 **Star 数**排序。**Merged** 是我向该项目提交、并且已被维护者合并的公开 PR 数量。表格由 GitHub Actions 定时更新。
+<p align="center">
+  <a href="https://github.com/pulls?q=is%3Apr+is%3Amerged+author%3AJun516">Merged PRs</a>
+  &nbsp;·&nbsp;
+  <a href="https://github.com/Jun516?tab=repositories">Repositories</a>
+</p>
+
+---
+
+### Open-source contributions
+
+仅统计**已被上游合并的公开 PR**（不包含待审核 PR），按仓库当前 Star 数排序。数据由 GitHub Actions **每日自动更新**。
 
 <!-- CONTRIBUTIONS:START -->
-| Project | ★ Stars | Language | Merged |
-|:---|---:|:---:|---:|
-| <img src="https://github.com/opensandbox-group.png?size=32" width="18" height="18" alt="" /> <a href="https://github.com/opensandbox-group/OpenSandbox"><b>opensandbox-group/OpenSandbox</b></a><br/><sub>Secure, Fast, and Extensible Sandbox runtime for AI agents.</sub> | 15.9k | <img alt="Python" src="https://img.shields.io/badge/Python-3776AB" /> | [1](https://github.com/opensandbox-group/OpenSandbox/pulls?q=is%3Apr+is%3Amerged+author%3AJun516) |
-| <img src="https://github.com/NevaMind-AI.png?size=32" width="18" height="18" alt="" /> <a href="https://github.com/NevaMind-AI/memU"><b>NevaMind-AI/memU</b></a><br/><sub>Personal memory across agents</sub> | 14.5k | <img alt="Python" src="https://img.shields.io/badge/Python-3776AB" /> | [2](https://github.com/NevaMind-AI/memU/pulls?q=is%3Apr+is%3Amerged+author%3AJun516) |
-| <img src="https://github.com/assistant-ui.png?size=32" width="18" height="18" alt="" /> <a href="https://github.com/assistant-ui/assistant-ui"><b>assistant-ui/assistant-ui</b></a><br/><sub>Typescript/React Library for AI Chat 💬🚀</sub> | 12.6k | <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-3178C6" /> | [1](https://github.com/assistant-ui/assistant-ui/pulls?q=is%3Apr+is%3Amerged+author%3AJun516) |
-| <img src="https://github.com/plastic-labs.png?size=32" width="18" height="18" alt="" /> <a href="https://github.com/plastic-labs/honcho"><b>plastic-labs/honcho</b></a><br/><sub> Memory library for building stateful agents</sub> | 7.6k | <img alt="Python" src="https://img.shields.io/badge/Python-3776AB" /> | [1](https://github.com/plastic-labs/honcho/pulls?q=is%3Apr+is%3Amerged+author%3AJun516) |
+| Repository | ★ Stars | Merged PRs |
+|:---|---:|---:|
+| [opensandbox-group/OpenSandbox](https://github.com/opensandbox-group/OpenSandbox) | 15.9k | **[1](https://github.com/opensandbox-group/OpenSandbox/pulls?q=is%3Apr+is%3Amerged+author%3AJun516)** |
+| [NevaMind-AI/memU](https://github.com/NevaMind-AI/memU) | 14.5k | **[2](https://github.com/NevaMind-AI/memU/pulls?q=is%3Apr+is%3Amerged+author%3AJun516)** |
+| [assistant-ui/assistant-ui](https://github.com/assistant-ui/assistant-ui) | 12.6k | **[1](https://github.com/assistant-ui/assistant-ui/pulls?q=is%3Apr+is%3Amerged+author%3AJun516)** |
+| [plastic-labs/honcho](https://github.com/plastic-labs/honcho) | 7.6k | **[1](https://github.com/plastic-labs/honcho/pulls?q=is%3Apr+is%3Amerged+author%3AJun516)** |
 
 *共 4 个项目，5 个已合并公开 PR；按 Star 排序。*
 <!-- CONTRIBUTIONS:END -->
 
-[查看我所有已合并的公开 PR](https://github.com/pulls?q=is%3Apr+is%3Amerged+author%3AJun516)
+<p align="right">
+  <sub>
+    <a href="https://github.com/Jun516/Jun516/actions/workflows/refresh-contributions.yml">自动更新记录</a>
+    ·
+    <a href="https://github.com/pulls?q=is%3Apr+is%3Amerged+author%3AJun516">全部已合并 PR</a>
+  </sub>
+</p>
 
-<!-- 修改此文件时请保留上面的 CONTRIBUTIONS:START / END 标记；统计脚本只更新标记之间的区域。 -->
+<!-- 请保留 CONTRIBUTIONS:START / END 标记；自动更新脚本只改写标记之间的内容。 -->
