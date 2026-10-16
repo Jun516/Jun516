@@ -29,8 +29,8 @@
 <!-- CONTRIBUTIONS:START -->
 <p>
   <a href="https://github.com/opensandbox-group/OpenSandbox"><img align="left" src="https://github.com/opensandbox-group.png?size=64" width="36" height="36" alt="opensandbox-group/OpenSandbox logo" /></a>
-  <a href="https://github.com/opensandbox-group/OpenSandbox/pulls?q=is%3Apr+is%3Amerged+author%3AJun516"><img align="right" src="https://img.shields.io/badge/Merged%20PRs-1-238636?style=flat-square" alt="1 merged PRs" /></a>
-  <a href="https://github.com/opensandbox-group/OpenSandbox"><img align="right" src="https://img.shields.io/badge/Stars-15.9k-64748B?style=flat-square" alt="15.9k stars" /></a>
+  <a href="https://github.com/opensandbox-group/OpenSandbox/pulls?q=is%3Apr+is%3Amerged+author%3AJun516"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Jun516/Jun516/main/assets/contribution-stats/opensandbox-group__OpenSandbox__merged__dark.svg"><img align="right" src="https://raw.githubusercontent.com/Jun516/Jun516/main/assets/contribution-stats/opensandbox-group__OpenSandbox__merged__light.svg" width="170" height="56" alt="1 merged PRs" /></picture></a>
+  <a href="https://github.com/opensandbox-group/OpenSandbox"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Jun516/Jun516/main/assets/contribution-stats/opensandbox-group__OpenSandbox__stars__dark.svg"><img align="right" src="https://raw.githubusercontent.com/Jun516/Jun516/main/assets/contribution-stats/opensandbox-group__OpenSandbox__stars__light.svg" width="154" height="56" alt="15.9k stars" /></picture></a>
   <a href="https://github.com/opensandbox-group/OpenSandbox"><strong>opensandbox-group/OpenSandbox</strong></a><br />
   <sub>Python · Secure, Fast, and Extensible Sandbox runtime for AI agents.</sub>
 </p>
@@ -39,8 +39,8 @@
 
 <p>
   <a href="https://github.com/NevaMind-AI/memU"><img align="left" src="https://github.com/NevaMind-AI.png?size=64" width="36" height="36" alt="NevaMind-AI/memU logo" /></a>
-  <a href="https://github.com/NevaMind-AI/memU/pulls?q=is%3Apr+is%3Amerged+author%3AJun516"><img align="right" src="https://img.shields.io/badge/Merged%20PRs-2-238636?style=flat-square" alt="2 merged PRs" /></a>
-  <a href="https://github.com/NevaMind-AI/memU"><img align="right" src="https://img.shields.io/badge/Stars-14.5k-64748B?style=flat-square" alt="14.5k stars" /></a>
+  <a href="https://github.com/NevaMind-AI/memU/pulls?q=is%3Apr+is%3Amerged+author%3AJun516"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Jun516/Jun516/main/assets/contribution-stats/NevaMind-AI__memU__merged__dark.svg"><img align="right" src="https://raw.githubusercontent.com/Jun516/Jun516/main/assets/contribution-stats/NevaMind-AI__memU__merged__light.svg" width="170" height="56" alt="2 merged PRs" /></picture></a>
+  <a href="https://github.com/NevaMind-AI/memU"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Jun516/Jun516/main/assets/contribution-stats/NevaMind-AI__memU__stars__dark.svg"><img align="right" src="https://raw.githubusercontent.com/Jun516/Jun516/main/assets/contribution-stats/NevaMind-AI__memU__stars__light.svg" width="154" height="56" alt="14.5k stars" /></picture></a>
   <a href="https://github.com/NevaMind-AI/memU"><strong>NevaMind-AI/memU</strong></a><br />
   <sub>Python · Personal memory across agents</sub>
 </p>
@@ -49,8 +49,8 @@
 
 <p>
   <a href="https://github.com/assistant-ui/assistant-ui"><img align="left" src="https://github.com/assistant-ui.png?size=64" width="36" height="36" alt="assistant-ui/assistant-ui logo" /></a>
-  <a href="https://github.com/assistant-ui/assistant-ui/pulls?q=is%3Apr+is%3Amerged+author%3AJun516"><img align="right" src="https://img.shields.io/badge/Merged%20PRs-1-238636?style=flat-square" alt="1 merged PRs" /></a>
-  <a href="https://github.com/assistant-ui/assistant-ui"><img align="right" src="https://img.shields.io/badge/Stars-12.6k-64748B?style=flat-square" alt="12.6k stars" /></a>
+  <a href="https://github.com/assistant-ui/assistant-ui/pulls?q=is%3Apr+is%3Amerged+author%3AJun516"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Jun516/Jun516/main/assets/contribution-stats/assistant-ui__assistant-ui__merged__dark.svg"><img align="right" src="https://raw.githubusercontent.com/Jun516/Jun516/main/assets/contribution-stats/assistant-ui__assistant-ui__merged__light.svg" width="170" height="56" alt="1 merged PRs" /></picture></a>
+  <a href="https://github.com/assistant-ui/assistant-ui"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Jun516/Jun516/main/assets/contribution-stats/assistant-ui__assistant-ui__stars__dark.svg"><img align="right" src="https://raw.githubusercontent.com/Jun516/Jun516/main/assets/contribution-stats/assistant-ui__assistant-ui__stars__light.svg" width="154" height="56" alt="12.6k stars" /></picture></a>
   <a href="https://github.com/assistant-ui/assistant-ui"><strong>assistant-ui/assistant-ui</strong></a><br />
   <sub>TypeScript · Typescript/React Library for AI Chat 💬🚀</sub>
 </p>
@@ -59,8 +59,8 @@
 
 <p>
   <a href="https://github.com/plastic-labs/honcho"><img align="left" src="https://github.com/plastic-labs.png?size=64" width="36" height="36" alt="plastic-labs/honcho logo" /></a>
-  <a href="https://github.com/plastic-labs/honcho/pulls?q=is%3Apr+is%3Amerged+author%3AJun516"><img align="right" src="https://img.shields.io/badge/Merged%20PRs-1-238636?style=flat-square" alt="1 merged PRs" /></a>
-  <a href="https://github.com/plastic-labs/honcho"><img align="right" src="https://img.shields.io/badge/Stars-7.6k-64748B?style=flat-square" alt="7.6k stars" /></a>
+  <a href="https://github.com/plastic-labs/honcho/pulls?q=is%3Apr+is%3Amerged+author%3AJun516"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Jun516/Jun516/main/assets/contribution-stats/plastic-labs__honcho__merged__dark.svg"><img align="right" src="https://raw.githubusercontent.com/Jun516/Jun516/main/assets/contribution-stats/plastic-labs__honcho__merged__light.svg" width="170" height="56" alt="1 merged PRs" /></picture></a>
+  <a href="https://github.com/plastic-labs/honcho"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Jun516/Jun516/main/assets/contribution-stats/plastic-labs__honcho__stars__dark.svg"><img align="right" src="https://raw.githubusercontent.com/Jun516/Jun516/main/assets/contribution-stats/plastic-labs__honcho__stars__light.svg" width="154" height="56" alt="7.6k stars" /></picture></a>
   <a href="https://github.com/plastic-labs/honcho"><strong>plastic-labs/honcho</strong></a><br />
   <sub>Python · Memory library for building stateful agents</sub>
 </p>

@@ -103,8 +103,40 @@ def _unique_repo_icon(full):
     return "https://raw.githubusercontent.com/Jun516/Jun516/main/" + urllib.parse.quote(path.as_posix(), safe="/")
 
 
+def _stats_panel(repo, kind, theme):
+    """Generate compact theme-aware SVG stat panels, with each half linkable."""
+    full = repo["full"]
+    slug = full.replace("/", "__")
+    width = 154 if kind == "stars" else 170
+    label = "Stars" if kind == "stars" else "Merged PRs"
+    number = stars_text(repo["stars"]) if kind == "stars" else str(repo["merged"])
+    if theme == "dark":
+        background, border, foreground, muted = "#232735", "#45475D", "#F4F5F9", "#B1B5C8"
+    else:
+        background, border, foreground, muted = "#F8F8FD", "#DCDDED", "#20253A", "#6A7087"
+    if kind == "stars":
+        icon = '  <path d="M16 9.5 19.1 15.7 25.9 16.7 21 21.5 22.2 28.3 16 25.1 9.8 28.3 11 21.5 6.1 16.7 12.9 15.7Z" fill="#F5B424"/>'
+    else:
+        icon = '  <path d="M11 12v17m0-9h11m0 0v-5m0 5v10" fill="none" stroke="#23A065" stroke-width="2.4" stroke-linecap="round"/><circle cx="11" cy="12" r="3.2" fill="#23A065"/><circle cx="22" cy="15" r="3.2" fill="#23A065"/><circle cx="22" cy="30" r="3.2" fill="#23A065"/>'
+    svg = "\n".join([
+        f'<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="56" viewBox="0 0 {width} 56" role="img">',
+        f'  <title>{html.escape(full)} {label}: {html.escape(number)}</title>',
+        f'  <rect x=".5" y=".5" width="{width-1}" height="55" rx="9" fill="{background}" stroke="{border}"/>',
+        icon,
+        f'  <text x="36" y="21" font-family="Arial, sans-serif" font-size="12" fill="{muted}">{label}</text>',
+        f'  <text x="36" y="42" font-family="Arial, sans-serif" font-weight="700" font-size="18" fill="{foreground}">{html.escape(number)}</text>',
+        "</svg>",
+        "",
+    ])
+    asset = Path("assets/contribution-stats") / f"{slug}__{kind}__{theme}.svg"
+    asset.parent.mkdir(parents=True, exist_ok=True)
+    if not asset.exists() or asset.read_text(encoding="utf-8") != svg:
+        asset.write_text(svg, encoding="utf-8")
+    return "https://raw.githubusercontent.com/Jun516/Jun516/main/" + urllib.parse.quote(asset.as_posix(), safe="/")
+
+
 def format_project(repo, seen_owners):
-    """Render one full-width README row with a logo and right-aligned badges."""
+    """Render one full-width README row with a linked, two-part stats panel."""
     full = repo["full"]
     owner = full.split("/", 1)[0]
     if owner.lower() not in seen_owners:
@@ -121,14 +153,22 @@ def format_project(repo, seen_owners):
     query = urllib.parse.urlencode({"q": "is:pr is:merged author:" + os.environ.get("GH_USERNAME", "Jun516")})
     prs = "https://github.com/" + urllib.parse.quote(full, safe="/") + "/pulls?" + query
     stars = stars_text(repo["stars"])
-    stars_badge = "https://img.shields.io/badge/Stars-" + urllib.parse.quote(stars, safe="") + "-64748B?style=flat-square"
-    merged_badge = f'https://img.shields.io/badge/Merged%20PRs-{repo["merged"]}-238636?style=flat-square'
+
+    def linked_picture(url, kind, width, alt):
+        light = escape(_stats_panel(repo, kind, "light"))
+        dark = escape(_stats_panel(repo, kind, "dark"))
+        return (
+            f'  <a href="{escape(url)}"><picture>'
+            f'<source media="(prefers-color-scheme: dark)" srcset="{dark}">'
+            f'<img align="right" src="{light}" width="{width}" height="56" alt="{escape(alt)}" />'
+            f'</picture></a>'
+        )
 
     return "\n".join([
         "<p>",
         f'  <a href="{project_url}"><img align="left" src="{escape(src)}" width="36" height="36" alt="{escape(full)} logo" /></a>',
-        f'  <a href="{escape(prs)}"><img align="right" src="{escape(merged_badge)}" alt="{repo["merged"]} merged PRs" /></a>',
-        f'  <a href="{project_url}"><img align="right" src="{escape(stars_badge)}" alt="{escape(stars)} stars" /></a>',
+        linked_picture(prs, "merged", 170, f'{repo["merged"]} merged PRs'),
+        linked_picture(repo["url"], "stars", 154, f'{stars} stars'),
         f'  <a href="{project_url}"><strong>{escape(full)}</strong></a><br />',
         f'  <sub>{details}</sub>' if details else "  <sub>Open-source project</sub>",
         "</p>",

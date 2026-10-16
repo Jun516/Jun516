@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="170" height="56" viewBox="0 0 170 56" role="img">
+  <title>assistant-ui/assistant-ui Merged PRs: 1</title>
+  <rect x=".5" y=".5" width="169" height="55" rx="9" fill="#F8F8FD" stroke="#DCDDED"/>
+  <path d="M11 12v17m0-9h11m0 0v-5m0 5v10" fill="none" stroke="#23A065" stroke-width="2.4" stroke-linecap="round"/><circle cx="11" cy="12" r="3.2" fill="#23A065"/><circle cx="22" cy="15" r="3.2" fill="#23A065"/><circle cx="22" cy="30" r="3.2" fill="#23A065"/>
+  <text x="36" y="21" font-family="Arial, sans-serif" font-size="12" fill="#6A7087">Merged PRs</text>
+  <text x="36" y="42" font-family="Arial, sans-serif" font-weight="700" font-size="18" fill="#20253A">1</text>
+</svg>
