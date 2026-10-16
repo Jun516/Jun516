@@ -81,16 +81,9 @@ def lang_badge(language):
 def format_row(repo):
     full = repo["full"]
     project_url = escape(repo["url"])
-    owner = urllib.parse.quote(full.split("/")[0], safe="")
-    logo = f'<img src="https://github.com/{owner}.png?size=32" width="18" height="18" alt="" />'
-    project = f'{logo} <a href="{project_url}"><b>{escape(full)}</b></a>'
-    description = escape(repo["description"])
-    if description:
-        project += f"<br/><sub>{description[:160]}</sub>"
     query = urllib.parse.urlencode({"q": "is:pr is:merged author:" + os.environ.get("GH_USERNAME", "Jun516")})
     prs = "https://github.com/" + urllib.parse.quote(full, safe="/") + "/pulls?" + query
-    return (f'| {project} | {stars_text(repo["stars"])} | '
-            f'{lang_badge(repo["language"])} | [{repo["merged"]}]({prs}) |')
+    return f'| [{escape(full)}]({project_url}) | {stars_text(repo["stars"])} | **[{repo["merged"]}]({prs})** |'
 
 def generate(username, min_stars):
     counts, total = count_merged_prs(username)
@@ -110,7 +103,7 @@ def generate(username, min_stars):
                      "language": d.get("language") or "", "description": d.get("description") or "",
                      "url": d.get("html_url") or "https://github.com/" + full})
     rows.sort(key=lambda x: (-x["stars"], -x["merged"], x["full"].lower()))
-    table_header = ["| Project | ★ Stars | Language | Merged |", "|:---|---:|:---:|---:|"]
+    table_header = ["| Repository | ★ Stars | Merged PRs |", "|:---|---:|---:|"]
     if not rows:
         result = "暂无符合条件的已合并公开 PR。"
     else:
