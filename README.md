@@ -24,8 +24,6 @@
 
 ### Open-source contributions
 
-<sub>按 Star 排序 · 仅统计已被上游合并的公开 PR · GitHub Actions 每日自动更新</sub>
-
 <!-- CONTRIBUTIONS:START -->
 <p>
   <a href="https://github.com/opensandbox-group/OpenSandbox"><img align="left" src="https://github.com/opensandbox-group.png?size=64" width="36" height="36" alt="opensandbox-group/OpenSandbox logo" /></a>
@@ -65,7 +63,6 @@
   <sub>Python · Memory library for building stateful agents</sub>
 </p>
 
-<sub>共 4 个项目 · 5 个已合并公开 PR · 按 Star 排序</sub>
 <!-- CONTRIBUTIONS:END -->
 
 <p align="right"><sub><a href="https://github.com/Jun516/Jun516/actions/workflows/refresh-contributions.yml">Auto-update workflow</a> · <a href="https://github.com/pulls?q=is%3Apr+is%3Amerged+author%3AJun516">View all merged PRs</a></sub></p>

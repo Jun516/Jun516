@@ -206,7 +206,6 @@ def generate(username, min_stars):
         if len(rows) > 5:
             more = "\n\n<hr />\n\n".join(formatted_rows[5:])
             result += f"\n\n<details>\n<summary>展开其余 {len(rows)-5} 个项目</summary>\n\n{more}\n\n</details>"
-        result += f"\n\n<sub>共 {len(rows)} 个项目 · {sum(r['merged'] for r in rows)} 个已合并公开 PR · 按 Star 排序</sub>"
     if total > 1000:
         result += "\n\n*GitHub Search 最多返回 1,000 条结果，数据可能不完整。*"
     if min_stars:
