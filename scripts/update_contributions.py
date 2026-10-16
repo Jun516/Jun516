@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 """Update the profile README from public merged GitHub PRs (stdlib only)."""
+import hashlib
 import html
 import json
 import os
@@ -78,12 +79,50 @@ def lang_badge(language):
     safe = urllib.parse.quote(language.replace("-", "--"), safe="")
     return f'<img alt="{escape(language)}" src="https://img.shields.io/badge/{safe}-{color}" />'
 
-def format_row(repo):
+def _unique_repo_icon(full):
+    """Stable per-repository fallback, used only for repeated organization logos."""
+    digest = hashlib.sha256(full.encode("utf-8")).digest()
+    accent = "#%02X%02X%02X" % tuple(65 + (x % 145) for x in digest[:3])
+    shade = "#%02X%02X%02X" % tuple(50 + (x % 125) for x in digest[3:6])
+    repo = full.split("/", 1)[1]
+    initials = "".join(c for c in repo if c.isalnum())[:2].upper() or "GH"
+    svg = (
+        '<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">\n'
+        f'  <title>{html.escape(full, quote=True)}</title>\n'
+        '  <rect width="64" height="64" rx="14" fill="#172334"/>\n'
+        f'  <path d="M0 44 L64 16 L64 64 L0 64 Z" fill="{shade}" opacity=".85"/>\n'
+        f'  <rect x="6" y="6" width="52" height="52" rx="11" fill="{accent}" opacity=".28"/>\n'
+        f'  <text x="32" y="40" fill="#FFFFFF" text-anchor="middle" font-family="Arial, sans-serif" font-size="23" font-weight="700">{html.escape(initials)}</text>\n'
+        f'  <rect x="{9 + digest[6] % 35}" y="52" width="{6 + digest[7] % 12}" height="4" rx="2" fill="#FFFFFF" opacity=".75"/>\n'
+        "</svg>\n"
+    )
+    path = Path("assets/repo-icons") / (full.replace("/", "__") + ".svg")
+    path.parent.mkdir(parents=True, exist_ok=True)
+    if not path.exists() or path.read_text(encoding="utf-8") != svg:
+        path.write_text(svg, encoding="utf-8")
+    return "https://raw.githubusercontent.com/Jun516/Jun516/main/" + urllib.parse.quote(path.as_posix(), safe="/")
+
+
+def format_row(repo, seen_owners):
     full = repo["full"]
-    project_url = escape(repo["url"])
+    owner = full.split("/", 1)[0]
+    if owner.lower() not in seen_owners:
+        seen_owners.add(owner.lower())
+        src = f"https://github.com/{urllib.parse.quote(owner, safe='')}.png?size=64"
+    else:
+        src = _unique_repo_icon(full)
+    icon = f'<img src="{escape(src)}" width="28" height="28" alt="" />'
+    name = f'<a href="{escape(repo["url"])}"><b>{escape(full)}</b></a>'
+    description = repo["description"].strip()
+    tagline = description[:78] + ("…" if len(description) > 78 else "")
+    details = " · ".join(v for v in (escape(repo["language"]), escape(tagline)) if v)
+    project = f"{icon} {name}"
+    if details:
+        project += f"<br/><sub>{details}</sub>"
     query = urllib.parse.urlencode({"q": "is:pr is:merged author:" + os.environ.get("GH_USERNAME", "Jun516")})
     prs = "https://github.com/" + urllib.parse.quote(full, safe="/") + "/pulls?" + query
-    return f'| [{escape(full)}]({project_url}) | {stars_text(repo["stars"])} | **[{repo["merged"]}]({prs})** |'
+    return f'| {project} | {stars_text(repo["stars"])} | **[{repo["merged"]}]({prs})** |'
+
 
 def generate(username, min_stars):
     counts, total = count_merged_prs(username)
@@ -103,13 +142,15 @@ def generate(username, min_stars):
                      "language": d.get("language") or "", "description": d.get("description") or "",
                      "url": d.get("html_url") or "https://github.com/" + full})
     rows.sort(key=lambda x: (-x["stars"], -x["merged"], x["full"].lower()))
-    table_header = ["| Repository | ★ Stars | Merged PRs |", "|:---|---:|---:|"]
+    table_header = ["| Project | ★ Stars | Merged PRs |", "|:---|---:|---:|"]
+    seen_owners = set()
+    formatted_rows = [format_row(row, seen_owners) for row in rows]
     if not rows:
         result = "暂无符合条件的已合并公开 PR。"
     else:
-        result = "\n".join(table_header + [format_row(r) for r in rows[:5]])
+        result = "\n".join(table_header + formatted_rows[:5])
         if len(rows) > 5:
-            more = "\n".join(table_header + [format_row(r) for r in rows[5:]])
+            more = "\n".join(table_header + formatted_rows[5:])
             result += f"\n\n<details>\n<summary>展开其余 {len(rows)-5} 个项目</summary>\n\n{more}\n\n</details>"
         result += f"\n\n*共 {len(rows)} 个项目，{sum(r['merged'] for r in rows)} 个已合并公开 PR；按 Star 排序。*"
     if total > 1000:
