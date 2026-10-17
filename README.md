@@ -58,7 +58,7 @@
 <p>
   <a href="https://github.com/plastic-labs/honcho"><img align="left" src="https://github.com/plastic-labs.png?size=64" width="36" height="36" alt="plastic-labs/honcho logo" /></a>
   <a href="https://github.com/plastic-labs/honcho/pulls?q=is%3Apr+is%3Amerged+author%3AJun516"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Jun516/Jun516/main/assets/contribution-stats/plastic-labs__honcho__merged__dark.svg?v=2"><img align="right" src="https://raw.githubusercontent.com/Jun516/Jun516/main/assets/contribution-stats/plastic-labs__honcho__merged__light.svg?v=2" width="156" height="48" alt="1 merged PRs" /></picture></a>
-  <a href="https://github.com/plastic-labs/honcho"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Jun516/Jun516/main/assets/contribution-stats/plastic-labs__honcho__stars__dark.svg?v=2"><img align="right" src="https://raw.githubusercontent.com/Jun516/Jun516/main/assets/contribution-stats/plastic-labs__honcho__stars__light.svg?v=2" width="144" height="48" alt="7.6k stars" /></picture></a>
+  <a href="https://github.com/plastic-labs/honcho"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Jun516/Jun516/main/assets/contribution-stats/plastic-labs__honcho__stars__dark.svg?v=2"><img align="right" src="https://raw.githubusercontent.com/Jun516/Jun516/main/assets/contribution-stats/plastic-labs__honcho__stars__light.svg?v=2" width="144" height="48" alt="7.7k stars" /></picture></a>
   <a href="https://github.com/plastic-labs/honcho"><strong>plastic-labs/honcho</strong></a><br />
   <sub>Python · Memory library for building stateful agents</sub>
 </p>
