@@ -36,6 +36,16 @@
 <hr />
 
 <p>
+  <a href="https://github.com/QwenLM/qwen-code"><img align="left" src="https://github.com/QwenLM.png?size=64" width="36" height="36" alt="QwenLM/qwen-code logo" /></a>
+  <a href="https://github.com/QwenLM/qwen-code/pulls?q=is%3Apr+is%3Amerged+author%3AJun516"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Jun516/Jun516/main/assets/contribution-stats/QwenLM__qwen-code__merged__dark.svg?v=2"><img align="right" src="https://raw.githubusercontent.com/Jun516/Jun516/main/assets/contribution-stats/QwenLM__qwen-code__merged__light.svg?v=2" width="156" height="48" alt="1 merged PRs" /></picture></a>
+  <a href="https://github.com/QwenLM/qwen-code"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Jun516/Jun516/main/assets/contribution-stats/QwenLM__qwen-code__stars__dark.svg?v=2"><img align="right" src="https://raw.githubusercontent.com/Jun516/Jun516/main/assets/contribution-stats/QwenLM__qwen-code__stars__light.svg?v=2" width="144" height="48" alt="28.6k stars" /></picture></a>
+  <a href="https://github.com/QwenLM/qwen-code"><strong>QwenLM/qwen-code</strong></a><br />
+  <sub>TypeScript · An open-source AI coding agent that lives in your terminal.</sub>
+</p>
+
+<hr />
+
+<p>
   <a href="https://github.com/opensandbox-group/OpenSandbox"><img align="left" src="https://github.com/opensandbox-group.png?size=64" width="36" height="36" alt="opensandbox-group/OpenSandbox logo" /></a>
   <a href="https://github.com/opensandbox-group/OpenSandbox/pulls?q=is%3Apr+is%3Amerged+author%3AJun516"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Jun516/Jun516/main/assets/contribution-stats/opensandbox-group__OpenSandbox__merged__dark.svg?v=2"><img align="right" src="https://raw.githubusercontent.com/Jun516/Jun516/main/assets/contribution-stats/opensandbox-group__OpenSandbox__merged__light.svg?v=2" width="156" height="48" alt="2 merged PRs" /></picture></a>
   <a href="https://github.com/opensandbox-group/OpenSandbox"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Jun516/Jun516/main/assets/contribution-stats/opensandbox-group__OpenSandbox__stars__dark.svg?v=2"><img align="right" src="https://raw.githubusercontent.com/Jun516/Jun516/main/assets/contribution-stats/opensandbox-group__OpenSandbox__stars__light.svg?v=2" width="144" height="48" alt="16.0k stars" /></picture></a>
@@ -63,7 +73,8 @@
   <sub>TypeScript · Typescript/React Library for AI Chat 💬🚀</sub>
 </p>
 
-<hr />
+<details>
+<summary>展开其余 1 个项目</summary>
 
 <p>
   <a href="https://github.com/plastic-labs/honcho"><img align="left" src="https://github.com/plastic-labs.png?size=64" width="36" height="36" alt="plastic-labs/honcho logo" /></a>
@@ -72,6 +83,8 @@
   <a href="https://github.com/plastic-labs/honcho"><strong>plastic-labs/honcho</strong></a><br />
   <sub>Python · Memory library for building stateful agents</sub>
 </p>
+
+</details>
 <!-- CONTRIBUTIONS:END -->
 
 <p align="right"><sub><a href="https://github.com/Jun516/Jun516/actions/workflows/refresh-contributions.yml">Auto-update workflow</a> · <a href="https://github.com/pulls?q=is%3Apr+is%3Amerged+author%3AJun516">View all merged PRs</a></sub></p>
