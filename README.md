@@ -74,7 +74,7 @@
 </p>
 
 <details>
-<summary>展开其余 1 个项目</summary>
+<summary>展开其余 2 个项目</summary>
 
 <p>
   <a href="https://github.com/plastic-labs/honcho"><img align="left" src="https://github.com/plastic-labs.png?size=64" width="36" height="36" alt="plastic-labs/honcho logo" /></a>
@@ -82,6 +82,16 @@
   <a href="https://github.com/plastic-labs/honcho"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Jun516/Jun516/main/assets/contribution-stats/plastic-labs__honcho__stars__dark.svg?v=2"><img align="right" src="https://raw.githubusercontent.com/Jun516/Jun516/main/assets/contribution-stats/plastic-labs__honcho__stars__light.svg?v=2" width="144" height="48" alt="7.7k stars" /></picture></a>
   <a href="https://github.com/plastic-labs/honcho"><strong>plastic-labs/honcho</strong></a><br />
   <sub>Python · Memory library for building stateful agents</sub>
+</p>
+
+<hr />
+
+<p>
+  <a href="https://github.com/gepa-ai/gepa"><img align="left" src="https://github.com/gepa-ai.png?size=64" width="36" height="36" alt="gepa-ai/gepa logo" /></a>
+  <a href="https://github.com/gepa-ai/gepa/pulls?q=is%3Apr+is%3Amerged+author%3AJun516"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Jun516/Jun516/main/assets/contribution-stats/gepa-ai__gepa__merged__dark.svg?v=2"><img align="right" src="https://raw.githubusercontent.com/Jun516/Jun516/main/assets/contribution-stats/gepa-ai__gepa__merged__light.svg?v=2" width="156" height="48" alt="1 merged PRs" /></picture></a>
+  <a href="https://github.com/gepa-ai/gepa"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Jun516/Jun516/main/assets/contribution-stats/gepa-ai__gepa__stars__dark.svg?v=2"><img align="right" src="https://raw.githubusercontent.com/Jun516/Jun516/main/assets/contribution-stats/gepa-ai__gepa__stars__light.svg?v=2" width="144" height="48" alt="7.1k stars" /></picture></a>
+  <a href="https://github.com/gepa-ai/gepa"><strong>gepa-ai/gepa</strong></a><br />
+  <sub>Jupyter Notebook · Optimize prompts, code, and more with AI-powered Reflective Optimization</sub>
 </p>
 
 </details>
