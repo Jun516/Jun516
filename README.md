@@ -37,7 +37,7 @@
 
 <p>
   <a href="https://github.com/QwenLM/qwen-code"><img align="left" src="https://github.com/QwenLM.png?size=64" width="36" height="36" alt="QwenLM/qwen-code logo" /></a>
-  <a href="https://github.com/QwenLM/qwen-code/pulls?q=is%3Apr+is%3Amerged+author%3AJun516"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Jun516/Jun516/main/assets/contribution-stats/QwenLM__qwen-code__merged__dark.svg?v=2"><img align="right" src="https://raw.githubusercontent.com/Jun516/Jun516/main/assets/contribution-stats/QwenLM__qwen-code__merged__light.svg?v=2" width="156" height="48" alt="4 merged PRs" /></picture></a>
+  <a href="https://github.com/QwenLM/qwen-code/pulls?q=is%3Apr+is%3Amerged+author%3AJun516"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Jun516/Jun516/main/assets/contribution-stats/QwenLM__qwen-code__merged__dark.svg?v=2"><img align="right" src="https://raw.githubusercontent.com/Jun516/Jun516/main/assets/contribution-stats/QwenLM__qwen-code__merged__light.svg?v=2" width="156" height="48" alt="6 merged PRs" /></picture></a>
   <a href="https://github.com/QwenLM/qwen-code"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Jun516/Jun516/main/assets/contribution-stats/QwenLM__qwen-code__stars__dark.svg?v=2"><img align="right" src="https://raw.githubusercontent.com/Jun516/Jun516/main/assets/contribution-stats/QwenLM__qwen-code__stars__light.svg?v=2" width="144" height="48" alt="28.7k stars" /></picture></a>
   <a href="https://github.com/QwenLM/qwen-code"><strong>QwenLM/qwen-code</strong></a><br />
   <sub>TypeScript · An open-source AI coding agent that lives in your terminal.</sub>
@@ -68,7 +68,7 @@
 <p>
   <a href="https://github.com/akitaonrails/ai-memory"><img align="left" src="https://github.com/akitaonrails.png?size=64" width="36" height="36" alt="akitaonrails/ai-memory logo" /></a>
   <a href="https://github.com/akitaonrails/ai-memory/pulls?q=is%3Apr+is%3Amerged+author%3AJun516"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Jun516/Jun516/main/assets/contribution-stats/akitaonrails__ai-memory__merged__dark.svg?v=2"><img align="right" src="https://raw.githubusercontent.com/Jun516/Jun516/main/assets/contribution-stats/akitaonrails__ai-memory__merged__light.svg?v=2" width="156" height="48" alt="2 merged PRs" /></picture></a>
-  <a href="https://github.com/akitaonrails/ai-memory"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Jun516/Jun516/main/assets/contribution-stats/akitaonrails__ai-memory__stars__dark.svg?v=2"><img align="right" src="https://raw.githubusercontent.com/Jun516/Jun516/main/assets/contribution-stats/akitaonrails__ai-memory__stars__light.svg?v=2" width="144" height="48" alt="12.9k stars" /></picture></a>
+  <a href="https://github.com/akitaonrails/ai-memory"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Jun516/Jun516/main/assets/contribution-stats/akitaonrails__ai-memory__stars__dark.svg?v=2"><img align="right" src="https://raw.githubusercontent.com/Jun516/Jun516/main/assets/contribution-stats/akitaonrails__ai-memory__stars__light.svg?v=2" width="144" height="48" alt="13.1k stars" /></picture></a>
   <a href="https://github.com/akitaonrails/ai-memory"><strong>akitaonrails/ai-memory</strong></a><br />
   <sub>Rust · Solution for long term memory for agent coding CLIs and to facilitate handoff …</sub>
 </p>
@@ -89,7 +89,7 @@
 <p>
   <a href="https://github.com/plastic-labs/honcho"><img align="left" src="https://github.com/plastic-labs.png?size=64" width="36" height="36" alt="plastic-labs/honcho logo" /></a>
   <a href="https://github.com/plastic-labs/honcho/pulls?q=is%3Apr+is%3Amerged+author%3AJun516"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Jun516/Jun516/main/assets/contribution-stats/plastic-labs__honcho__merged__dark.svg?v=2"><img align="right" src="https://raw.githubusercontent.com/Jun516/Jun516/main/assets/contribution-stats/plastic-labs__honcho__merged__light.svg?v=2" width="156" height="48" alt="1 merged PRs" /></picture></a>
-  <a href="https://github.com/plastic-labs/honcho"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Jun516/Jun516/main/assets/contribution-stats/plastic-labs__honcho__stars__dark.svg?v=2"><img align="right" src="https://raw.githubusercontent.com/Jun516/Jun516/main/assets/contribution-stats/plastic-labs__honcho__stars__light.svg?v=2" width="144" height="48" alt="7.7k stars" /></picture></a>
+  <a href="https://github.com/plastic-labs/honcho"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Jun516/Jun516/main/assets/contribution-stats/plastic-labs__honcho__stars__dark.svg?v=2"><img align="right" src="https://raw.githubusercontent.com/Jun516/Jun516/main/assets/contribution-stats/plastic-labs__honcho__stars__light.svg?v=2" width="144" height="48" alt="7.8k stars" /></picture></a>
   <a href="https://github.com/plastic-labs/honcho"><strong>plastic-labs/honcho</strong></a><br />
   <sub>Python · Memory library for building stateful agents</sub>
 </p>
