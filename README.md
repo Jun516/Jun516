@@ -89,7 +89,7 @@
 <p>
   <a href="https://github.com/assistant-ui/assistant-ui"><img align="left" src="https://github.com/assistant-ui.png?size=64" width="36" height="36" alt="assistant-ui/assistant-ui logo" /></a>
   <a href="https://github.com/assistant-ui/assistant-ui/pulls?q=is%3Apr+is%3Amerged+author%3AJun516"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Jun516/Jun516/main/assets/contribution-stats/assistant-ui__assistant-ui__merged__dark.svg?v=2"><img align="right" src="https://raw.githubusercontent.com/Jun516/Jun516/main/assets/contribution-stats/assistant-ui__assistant-ui__merged__light.svg?v=2" width="156" height="48" alt="1 merged PRs" /></picture></a>
-  <a href="https://github.com/assistant-ui/assistant-ui"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Jun516/Jun516/main/assets/contribution-stats/assistant-ui__assistant-ui__stars__dark.svg?v=2"><img align="right" src="https://raw.githubusercontent.com/Jun516/Jun516/main/assets/contribution-stats/assistant-ui__assistant-ui__stars__light.svg?v=2" width="144" height="48" alt="12.7k stars" /></picture></a>
+  <a href="https://github.com/assistant-ui/assistant-ui"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Jun516/Jun516/main/assets/contribution-stats/assistant-ui__assistant-ui__stars__dark.svg?v=2"><img align="right" src="https://raw.githubusercontent.com/Jun516/Jun516/main/assets/contribution-stats/assistant-ui__assistant-ui__stars__light.svg?v=2" width="144" height="48" alt="12.8k stars" /></picture></a>
   <a href="https://github.com/assistant-ui/assistant-ui"><strong>assistant-ui/assistant-ui</strong></a><br />
   <sub>TypeScript · Typescript/React Library for AI Chat 💬🚀</sub>
 </p>
@@ -109,7 +109,7 @@
 <p>
   <a href="https://github.com/gepa-ai/gepa"><img align="left" src="https://github.com/gepa-ai.png?size=64" width="36" height="36" alt="gepa-ai/gepa logo" /></a>
   <a href="https://github.com/gepa-ai/gepa/pulls?q=is%3Apr+is%3Amerged+author%3AJun516"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Jun516/Jun516/main/assets/contribution-stats/gepa-ai__gepa__merged__dark.svg?v=2"><img align="right" src="https://raw.githubusercontent.com/Jun516/Jun516/main/assets/contribution-stats/gepa-ai__gepa__merged__light.svg?v=2" width="156" height="48" alt="1 merged PRs" /></picture></a>
-  <a href="https://github.com/gepa-ai/gepa"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Jun516/Jun516/main/assets/contribution-stats/gepa-ai__gepa__stars__dark.svg?v=2"><img align="right" src="https://raw.githubusercontent.com/Jun516/Jun516/main/assets/contribution-stats/gepa-ai__gepa__stars__light.svg?v=2" width="144" height="48" alt="7.1k stars" /></picture></a>
+  <a href="https://github.com/gepa-ai/gepa"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Jun516/Jun516/main/assets/contribution-stats/gepa-ai__gepa__stars__dark.svg?v=2"><img align="right" src="https://raw.githubusercontent.com/Jun516/Jun516/main/assets/contribution-stats/gepa-ai__gepa__stars__light.svg?v=2" width="144" height="48" alt="7.2k stars" /></picture></a>
   <a href="https://github.com/gepa-ai/gepa"><strong>gepa-ai/gepa</strong></a><br />
   <sub>Jupyter Notebook · Optimize prompts, code, and more with AI-powered Reflective Optimization</sub>
 </p>
