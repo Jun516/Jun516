@@ -48,7 +48,7 @@
 <p>
   <a href="https://github.com/xerj-org/xerj"><img align="left" src="https://github.com/xerj-org.png?size=64" width="36" height="36" alt="xerj-org/xerj logo" /></a>
   <a href="https://github.com/xerj-org/xerj/pulls?q=is%3Apr+is%3Amerged+author%3AJun516"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Jun516/Jun516/main/assets/contribution-stats/xerj-org__xerj__merged__dark.svg?v=2"><img align="right" src="https://raw.githubusercontent.com/Jun516/Jun516/main/assets/contribution-stats/xerj-org__xerj__merged__light.svg?v=2" width="156" height="48" alt="4 merged PRs" /></picture></a>
-  <a href="https://github.com/xerj-org/xerj"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Jun516/Jun516/main/assets/contribution-stats/xerj-org__xerj__stars__dark.svg?v=2"><img align="right" src="https://raw.githubusercontent.com/Jun516/Jun516/main/assets/contribution-stats/xerj-org__xerj__stars__light.svg?v=2" width="144" height="48" alt="17.6k stars" /></picture></a>
+  <a href="https://github.com/xerj-org/xerj"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Jun516/Jun516/main/assets/contribution-stats/xerj-org__xerj__stars__dark.svg?v=2"><img align="right" src="https://raw.githubusercontent.com/Jun516/Jun516/main/assets/contribution-stats/xerj-org__xerj__stars__light.svg?v=2" width="144" height="48" alt="17.8k stars" /></picture></a>
   <a href="https://github.com/xerj-org/xerj"><strong>xerj-org/xerj</strong></a><br />
   <sub>Rust · AI search engine and MCP server for bots and agents. One Rust binary indexes c…</sub>
 </p>
@@ -66,6 +66,17 @@
 <hr />
 
 <p>
+  <a href="https://github.com/akitaonrails/ai-memory"><img align="left" src="https://github.com/akitaonrails.png?size=64" width="36" height="36" alt="akitaonrails/ai-memory logo" /></a>
+  <a href="https://github.com/akitaonrails/ai-memory/pulls?q=is%3Apr+is%3Amerged+author%3AJun516"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Jun516/Jun516/main/assets/contribution-stats/akitaonrails__ai-memory__merged__dark.svg?v=2"><img align="right" src="https://raw.githubusercontent.com/Jun516/Jun516/main/assets/contribution-stats/akitaonrails__ai-memory__merged__light.svg?v=2" width="156" height="48" alt="2 merged PRs" /></picture></a>
+  <a href="https://github.com/akitaonrails/ai-memory"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Jun516/Jun516/main/assets/contribution-stats/akitaonrails__ai-memory__stars__dark.svg?v=2"><img align="right" src="https://raw.githubusercontent.com/Jun516/Jun516/main/assets/contribution-stats/akitaonrails__ai-memory__stars__light.svg?v=2" width="144" height="48" alt="14.6k stars" /></picture></a>
+  <a href="https://github.com/akitaonrails/ai-memory"><strong>akitaonrails/ai-memory</strong></a><br />
+  <sub>Rust · Solution for long term memory for agent coding CLIs and to facilitate handoff …</sub>
+</p>
+
+<details>
+<summary>展开其余 4 个项目</summary>
+
+<p>
   <a href="https://github.com/NevaMind-AI/memU"><img align="left" src="https://github.com/NevaMind-AI.png?size=64" width="36" height="36" alt="NevaMind-AI/memU logo" /></a>
   <a href="https://github.com/NevaMind-AI/memU/pulls?q=is%3Apr+is%3Amerged+author%3AJun516"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Jun516/Jun516/main/assets/contribution-stats/NevaMind-AI__memU__merged__dark.svg?v=2"><img align="right" src="https://raw.githubusercontent.com/Jun516/Jun516/main/assets/contribution-stats/NevaMind-AI__memU__merged__light.svg?v=2" width="156" height="48" alt="2 merged PRs" /></picture></a>
   <a href="https://github.com/NevaMind-AI/memU"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Jun516/Jun516/main/assets/contribution-stats/NevaMind-AI__memU__stars__dark.svg?v=2"><img align="right" src="https://raw.githubusercontent.com/Jun516/Jun516/main/assets/contribution-stats/NevaMind-AI__memU__stars__light.svg?v=2" width="144" height="48" alt="14.6k stars" /></picture></a>
@@ -73,23 +84,12 @@
   <sub>Python · Personal memory across agents</sub>
 </p>
 
-<details>
-<summary>展开其余 4 个项目</summary>
-
-<p>
-  <a href="https://github.com/akitaonrails/ai-memory"><img align="left" src="https://github.com/akitaonrails.png?size=64" width="36" height="36" alt="akitaonrails/ai-memory logo" /></a>
-  <a href="https://github.com/akitaonrails/ai-memory/pulls?q=is%3Apr+is%3Amerged+author%3AJun516"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Jun516/Jun516/main/assets/contribution-stats/akitaonrails__ai-memory__merged__dark.svg?v=2"><img align="right" src="https://raw.githubusercontent.com/Jun516/Jun516/main/assets/contribution-stats/akitaonrails__ai-memory__merged__light.svg?v=2" width="156" height="48" alt="2 merged PRs" /></picture></a>
-  <a href="https://github.com/akitaonrails/ai-memory"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Jun516/Jun516/main/assets/contribution-stats/akitaonrails__ai-memory__stars__dark.svg?v=2"><img align="right" src="https://raw.githubusercontent.com/Jun516/Jun516/main/assets/contribution-stats/akitaonrails__ai-memory__stars__light.svg?v=2" width="144" height="48" alt="14.5k stars" /></picture></a>
-  <a href="https://github.com/akitaonrails/ai-memory"><strong>akitaonrails/ai-memory</strong></a><br />
-  <sub>Rust · Solution for long term memory for agent coding CLIs and to facilitate handoff …</sub>
-</p>
-
 <hr />
 
 <p>
   <a href="https://github.com/assistant-ui/assistant-ui"><img align="left" src="https://github.com/assistant-ui.png?size=64" width="36" height="36" alt="assistant-ui/assistant-ui logo" /></a>
   <a href="https://github.com/assistant-ui/assistant-ui/pulls?q=is%3Apr+is%3Amerged+author%3AJun516"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Jun516/Jun516/main/assets/contribution-stats/assistant-ui__assistant-ui__merged__dark.svg?v=2"><img align="right" src="https://raw.githubusercontent.com/Jun516/Jun516/main/assets/contribution-stats/assistant-ui__assistant-ui__merged__light.svg?v=2" width="156" height="48" alt="1 merged PRs" /></picture></a>
-  <a href="https://github.com/assistant-ui/assistant-ui"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Jun516/Jun516/main/assets/contribution-stats/assistant-ui__assistant-ui__stars__dark.svg?v=2"><img align="right" src="https://raw.githubusercontent.com/Jun516/Jun516/main/assets/contribution-stats/assistant-ui__assistant-ui__stars__light.svg?v=2" width="144" height="48" alt="12.8k stars" /></picture></a>
+  <a href="https://github.com/assistant-ui/assistant-ui"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Jun516/Jun516/main/assets/contribution-stats/assistant-ui__assistant-ui__stars__dark.svg?v=2"><img align="right" src="https://raw.githubusercontent.com/Jun516/Jun516/main/assets/contribution-stats/assistant-ui__assistant-ui__stars__light.svg?v=2" width="144" height="48" alt="12.9k stars" /></picture></a>
   <a href="https://github.com/assistant-ui/assistant-ui"><strong>assistant-ui/assistant-ui</strong></a><br />
   <sub>TypeScript · Typescript/React Library for AI Chat 💬🚀</sub>
 </p>
