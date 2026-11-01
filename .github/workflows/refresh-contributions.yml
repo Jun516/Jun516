@@ -32,7 +32,7 @@ jobs:
 
       - name: Commit refreshed contribution showcase
         run: |
-          git add -A -- README.md
+          git add -A -- README.md README.en.md
           if [ -d assets/repo-icons ]; then
             git add -A -- assets/repo-icons
           fi
