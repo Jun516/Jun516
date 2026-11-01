@@ -34,10 +34,9 @@
 ## 📊 GitHub 数据
 
 <p align="center">
-  <a href="https://github.com/lowlighter/metrics"><img src="./assets/metrics/profile.svg" width="440" alt="GitHub Metrics: open and merged pull requests, contribution calendar" /></a>
-  <a href="https://github.com/lowlighter/metrics"><img src="./assets/metrics/recent-activity.svg" width="440" alt="GitHub Metrics: latest GitHub activity" /></a>
+  <a href="https://github.com/lowlighter/metrics"><img src="./assets/metrics/profile.svg" width="520" alt="GitHub Metrics: open and merged pull requests, contribution calendar" /></a>
 </p>
-<sub>PR 状态、贡献日历与近期动态由 <a href="https://github.com/lowlighter/metrics">lowlighter/metrics</a> 生成并定期更新。数据来自 GitHub，可能存在更新延迟。</sub>
+<sub>PR 状态与贡献日历由 <a href="https://github.com/lowlighter/metrics">lowlighter/metrics</a> 生成并定期更新。数据来自 GitHub，可能存在更新延迟。</sub>
 
 ---
 

@@ -5,7 +5,6 @@ on:
   push:
     branches:
       - main
-      - profile-bilingual-mmphego-20261101
     paths:
       - .github/workflows/profile-metrics.yml
   schedule:
@@ -38,24 +37,6 @@ jobs:
           plugin_followup_sections: user
           plugin_isocalendar: yes
           plugin_isocalendar_duration: half-year
-          config_display: regular
-          config_timezone: Asia/Singapore
-          config_animations: no
-      - name: Generate recent GitHub activity
-        uses: lowlighter/metrics@65836723097537a54cd8eb90f61839426b4266b6
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          user: Jun516
-          committer_token: ${{ secrets.GITHUB_TOKEN }}
-          committer_branch: ${{ github.ref_name }}
-          committer_message: 'chore: refresh GitHub recent activity [skip ci]'
-          filename: assets/metrics/recent-activity.svg
-          output_action: commit
-          template: classic
-          base: ''
-          plugin_activity: yes
-          plugin_activity_limit: 5
-          plugin_activity_days: 30
           config_display: regular
           config_timezone: Asia/Singapore
           config_animations: no
