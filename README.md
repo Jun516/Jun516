@@ -4,7 +4,12 @@
 </p>
 <div align="center">
 
-<h1>Hi, I'm Qiu 👋</h1>
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=42&duration=3200&pause=1100&color=E6EDF3&center=true&vCenter=true&repeat=true&width=850&height=104&lines=Hi%2C+I%27m+Qiu;Building+AI+Agents;Contributing+to+Open+Source" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=42&duration=3200&pause=1100&color=24292F&center=true&vCenter=true&repeat=true&width=850&height=104&lines=Hi%2C+I%27m+Qiu;Building+AI+Agents;Contributing+to+Open+Source" width="850" alt="Animated introduction: Hi, I'm Qiu · Building AI Agents · Contributing to Open Source" />
+  </picture>
+</p>
 <p><strong>Agent 开发 · 开源贡献 · 开发者工具</strong></p>
 <p>通过真实项目学习软件工程：定位问题、复现缺陷、编写测试，持续改进代码。</p>
 
@@ -33,6 +38,19 @@
 <a id="github-activity"></a>
 ## 📊 GitHub 数据
 
+<p align="center">
+  <img src="./profile-summary-card-output/github/0-profile-details.svg" width="700" alt="GitHub activity trend over the last year for Jun516" />
+</p>
+<p align="center">
+  <img src="./profile-summary-card-output/github/1-repos-per-language.svg" width="340" alt="Programming language breakdown by repository" />
+  &nbsp;
+  <img src="./profile-summary-card-output/github/2-most-commit-language.svg" width="340" alt="Programming language breakdown by commits" />
+</p>
+<p align="center">
+  <img src="./assets/metrics/contribution-overview.svg" width="700" alt="Annual contribution activity distribution across commits, pull requests, issues, and code reviews" />
+</p>
+<p><sub>年度趋势与语言环形图来自 <a href="https://github.com/vn7n24fzkq/github-profile-summary-cards">GitHub Profile Summary Cards</a>；四方向分布图来自 GitHub GraphQL 年度贡献分类。它们反映可访问的 GitHub 活动，不代表技能熟练度，PR 总数也不等于已合并 PR 数。</sub></p>
+<h3 align="center">PR 状态与贡献日历</h3>
 <p align="center">
   <a href="https://github.com/lowlighter/metrics"><img src="./assets/metrics/profile.svg" width="520" alt="GitHub Metrics: open and merged pull requests, contribution calendar" /></a>
 </p>

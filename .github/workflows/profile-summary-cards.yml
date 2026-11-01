@@ -1,0 +1,32 @@
+name: Refresh GitHub profile summary cards
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '31 3 * * *'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: summary-cards-${{ github.ref_name }}
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout profile repository
+        uses: actions/checkout@v4
+
+      - name: Generate real GitHub profile summary cards
+        uses: vn7n24fzkq/github-profile-summary-cards@7022eb6bd48de38b092f54110a8ff8185f2ac4a1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          USERNAME: Jun516
+          BRANCH_NAME: ${{ github.ref_name }}
+          THEME: github
+          NAME: Qiu
+          TIME_ZONE: Asia/Singapore
+          AUTO_PUSH: true
