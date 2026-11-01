@@ -54,7 +54,7 @@
 <p>
   <a href="https://github.com/xerj-org/xerj"><img align="left" src="https://github.com/xerj-org.png?size=64" width="36" height="36" alt="xerj-org/xerj logo" /></a>
   <a href="https://github.com/xerj-org/xerj/pulls?q=is%3Apr+is%3Amerged+author%3AJun516"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Jun516/Jun516/main/assets/contribution-stats/xerj-org__xerj__merged__dark.svg?v=2"><img align="right" src="https://raw.githubusercontent.com/Jun516/Jun516/main/assets/contribution-stats/xerj-org__xerj__merged__light.svg?v=2" width="156" height="48" alt="4 merged PRs" /></picture></a>
-  <a href="https://github.com/xerj-org/xerj"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Jun516/Jun516/main/assets/contribution-stats/xerj-org__xerj__stars__dark.svg?v=2"><img align="right" src="https://raw.githubusercontent.com/Jun516/Jun516/main/assets/contribution-stats/xerj-org__xerj__stars__light.svg?v=2" width="144" height="48" alt="18.5k stars" /></picture></a>
+  <a href="https://github.com/xerj-org/xerj"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Jun516/Jun516/main/assets/contribution-stats/xerj-org__xerj__stars__dark.svg?v=2"><img align="right" src="https://raw.githubusercontent.com/Jun516/Jun516/main/assets/contribution-stats/xerj-org__xerj__stars__light.svg?v=2" width="144" height="48" alt="18.6k stars" /></picture></a>
   <a href="https://github.com/xerj-org/xerj"><strong>xerj-org/xerj</strong></a><br />
   <sub>Rust · AI search engine and MCP server for bots and agents. One Rust binary indexes c…</sub>
 </p>
