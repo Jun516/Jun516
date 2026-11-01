@@ -13,6 +13,10 @@
 </p>
 
 <p>
+  <a href="https://hub.xerj.org/contributors/Jun516"><img src="https://hub.xerj.org/contributors/Jun516/badge.svg" alt="XERJ Corpus Hub contributor" /></a>
+</p>
+
+<p>
   <a href="https://github.com/Jun516?tab=repositories">Repositories</a>
   &nbsp; · &nbsp;
   <a href="https://github.com/pulls?q=is%3Apr+is%3Amerged+author%3AJun516">Merged Pull Requests</a>
