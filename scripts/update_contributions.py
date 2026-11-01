@@ -210,17 +210,7 @@ def generate(username, min_stars):
         result += "\n\n*GitHub Search 最多返回 1,000 条结果，数据可能不完整。*"
     if min_stars:
         result += f"\n\n*只显示 Star ≥ {min_stars:,} 的项目。*"
-    return result, total
-
-def write_merged_total_card(total):
-    """Refresh the profile's autumn merged-PR counter from the same search result."""
-    template = "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"440\" height=\"120\" viewBox=\"0 0 440 120\" role=\"img\" aria-label=\"Total merged pull requests on GitHub\">\n<defs>\n <linearGradient id=\"panel\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\"><stop offset=\"0%\" stop-color=\"#30242A\"/><stop offset=\"100%\" stop-color=\"#171D29\"/></linearGradient>\n <linearGradient id=\"copper\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"0\"><stop offset=\"0%\" stop-color=\"#EAA36A\"/><stop offset=\"100%\" stop-color=\"#F7D5A4\"/></linearGradient>\n</defs>\n<rect x=\"2\" y=\"2\" width=\"436\" height=\"116\" rx=\"17\" fill=\"url(#panel)\" stroke=\"#C48A62\" stroke-width=\"2\"/>\n<rect x=\"11\" y=\"11\" width=\"418\" height=\"98\" rx=\"12\" fill=\"none\" stroke=\"#A56850\" stroke-opacity=\".28\"/>\n<g stroke=\"#E6A064\" stroke-width=\"3.2\" fill=\"none\" stroke-linejoin=\"round\" stroke-linecap=\"round\">\n <path d=\"M48 31 V83 M48 52 H77 V74\"/>\n <circle cx=\"48\" cy=\"27\" r=\"5\" fill=\"#B56949\"/>\n <circle cx=\"77\" cy=\"79\" r=\"5\" fill=\"#E6A064\"/>\n <circle cx=\"48\" cy=\"87\" r=\"5\" fill=\"#E6A064\"/>\n</g>\n<text x=\"111\" y=\"41\" font-family=\"Arial, sans-serif\" font-size=\"15\" font-weight=\"600\" letter-spacing=\"1.1\" fill=\"#D9BEB0\">MERGED PULL REQUESTS</text>\n<text x=\"110\" y=\"91\" font-family=\"Arial, sans-serif\" font-size=\"51\" font-weight=\"800\" fill=\"url(#copper)\">@@TOTAL@@</text>\n<text x=\"410\" y=\"93\" text-anchor=\"end\" font-family=\"Arial, sans-serif\" font-size=\"11\" letter-spacing=\".8\" fill=\"#9FA7AE\">VERIFIED ON GITHUB</text>\n</svg>\n"
-    target = Path("assets/autumn/merged-prs.svg")
-    target.parent.mkdir(parents=True, exist_ok=True)
-    rendered = template.replace("@@TOTAL@@", str(int(total)))
-    if not target.exists() or target.read_text(encoding="utf-8") != rendered:
-        target.write_text(rendered, encoding="utf-8")
-
+    return result
 
 def main():
     username = os.environ.get("GH_USERNAME", "Jun516").strip()
@@ -234,9 +224,7 @@ def main():
         raise ValueError("README must have exactly one correctly ordered marker pair")
     left = text.index(START) + len(START)
     right = text.index(END)
-    showcase, total = generate(username, min_stars)
-    updated = text[:left] + "\n" + showcase + "\n" + text[right:]
-    write_merged_total_card(total)
+    updated = text[:left] + "\n" + generate(username, min_stars) + "\n" + text[right:]
     if updated != text:
         README.write_text(updated, encoding="utf-8")
         print("README updated")

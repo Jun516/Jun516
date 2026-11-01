@@ -39,7 +39,6 @@ jobs:
           if [ -d assets/contribution-stats ]; then
             git add -A -- assets/contribution-stats
           fi
-          git add -A -- assets/autumn/merged-prs.svg
           if git diff --cached --quiet; then
             echo "No changes"
             exit 0
