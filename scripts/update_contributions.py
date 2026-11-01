@@ -15,7 +15,6 @@ from pathlib import Path
 BASE = "https://api.github.com"
 START = "<!-- CONTRIBUTIONS:START -->"
 END = "<!-- CONTRIBUTIONS:END -->"
-README = Path("README.md")
 
 def api_get(path):
     token = os.environ.get("GITHUB_TOKEN", "")
@@ -212,6 +211,21 @@ def generate(username, min_stars):
         result += f"\n\n*只显示 Star ≥ {min_stars:,} 的项目。*"
     return result
 
+def english_showcase(showcase):
+    """Translate labels but preserve the shared source data and counters."""
+    showcase = re.sub(r"展开其余 (\d+) 个项目",
+                      lambda m: f"Show {m.group(1)} more repositories", showcase)
+    showcase = showcase.replace("暂无符合条件的已合并公开 PR。",
+                                "No matching public merged pull requests yet.")
+    showcase = showcase.replace(
+        "GitHub Search 最多返回 1,000 条结果，数据可能不完整。",
+        "GitHub Search returns up to 1,000 results; this listing may be incomplete.")
+    showcase = re.sub(r"只显示 Star ≥ ([\d,]+) 的项目。",
+                      lambda m: f"Only repositories with at least {m.group(1)} stars are shown.",
+                      showcase)
+    return showcase
+
+
 def main():
     username = os.environ.get("GH_USERNAME", "Jun516").strip()
     if not re.fullmatch(r"[A-Za-z0-9](?:[A-Za-z0-9-]{0,37}[A-Za-z0-9])?", username):
@@ -219,17 +233,24 @@ def main():
     min_stars = int(os.environ.get("MIN_STARS", "0"))
     if min_stars < 0:
         raise ValueError("MIN_STARS cannot be negative")
-    text = README.read_text(encoding="utf-8")
-    if text.count(START) != 1 or text.count(END) != 1 or text.index(START) >= text.index(END):
-        raise ValueError("README must have exactly one correctly ordered marker pair")
-    left = text.index(START) + len(START)
-    right = text.index(END)
-    updated = text[:left] + "\n" + generate(username, min_stars) + "\n" + text[right:]
-    if updated != text:
-        README.write_text(updated, encoding="utf-8")
-        print("README updated")
-    else:
-        print("Nothing changed")
+    pages = {path: path.read_text(encoding="utf-8")
+             for path in (Path("README.md"), Path("README.en.md"))}
+    for path, body in pages.items():
+        if (body.count(START) != 1 or body.count(END) != 1
+                or body.index(START) >= body.index(END)):
+            raise ValueError(f"{path} must have one ordered marker pair")
+
+    showcase = generate(username, min_stars)
+    for path, body in pages.items():
+        content = showcase if path.name == "README.md" else english_showcase(showcase)
+        left, right = body.index(START) + len(START), body.index(END)
+        updated = body[:left] + "\n" + content + "\n" + body[right:]
+        if updated != body:
+            path.write_text(updated, encoding="utf-8")
+            print(f"{path} updated")
+        else:
+            print(f"{path} unchanged")
+
 
 if __name__ == "__main__":
     main()

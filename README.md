@@ -1,42 +1,47 @@
+<p align="center">
+  <a href="./README.md"><img src="https://img.shields.io/badge/%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87-%E5%BD%93%E5%89%8D-2563EB?style=flat-square" alt="简体中文（当前）" /></a>
+  <a href="./README.en.md"><img src="https://img.shields.io/badge/English-Switch-64748B?style=flat-square" alt="Switch to English" /></a>
+</p>
 <div align="center">
 
-<h2>Hi, I'm Qiu 👋</h2>
+<h1>Hi, I'm Qiu 👋</h1>
+<p><strong>Agent 开发 · 开源贡献 · 开发者工具</strong></p>
+<p>通过真实项目学习软件工程：定位问题、复现缺陷、编写测试，持续改进代码。</p>
 
-<p><strong>AI Agents · Open Source · Developer Tools</strong></p>
-
-<p>在真实开源项目里学习 Agent 工程：复现问题、修复缺陷、补充测试，与维护者一起完善产品。</p>
-
-<p>
+<p align="center">
   <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
   <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
   <img src="https://img.shields.io/badge/AI_Agents-475569?style=flat-square" alt="AI Agents" />
 </p>
-
-<p>
+<p align="center">
   <a href="https://hub.xerj.org/contributors/Jun516"><img src="https://hub.xerj.org/contributors/Jun516/badge.svg" alt="XERJ Corpus Hub contributor" /></a>
 </p>
-
-<p>
-  <a href="https://github.com/Jun516?tab=repositories">Repositories</a>
-  &nbsp; · &nbsp;
-  <a href="https://github.com/pulls?q=is%3Apr+is%3Amerged+author%3AJun516">Merged Pull Requests</a>
-</p>
-
+<p><a href="#about-me">关于我</a> · <a href="#github-activity">GitHub 数据</a> · <a href="#open-source">开源贡献</a> · <a href="#links">相关链接</a></p>
 </div>
 
 ---
 
-### GitHub activity
+<a id="about-me"></a>
+## 👋 关于我
 
-<p align="center">
-  <a href="https://github.com/lowlighter/metrics"><img src="https://raw.githubusercontent.com/Jun516/Jun516/main/assets/metrics/profile.svg" width="480" alt="GitHub metrics for Jun516: merged and open pull requests, contribution calendar" /></a>
-</p>
-
-<p align="center"><sub>Pull request status and contribution calendar · Generated with <a href="https://github.com/lowlighter/metrics">lowlighter/metrics</a> · Updated daily</sub></p>
+- 🛠️ **当前关注：** AI Agent、开发者工具与工程实践。
+- 🔎 **开源实践：** 从可复现的问题入手，尽量提供小范围修复及回归测试。
+- 📚 **学习方式：** 阅读现有项目的代码和设计，再通过真实问题验证自己的理解。
 
 ---
 
-### Open-source contributions
+<a id="github-activity"></a>
+## 📊 GitHub 数据
+
+<p align="center">
+  <a href="https://github.com/lowlighter/metrics"><img src="./assets/metrics/profile.svg" width="520" alt="GitHub Metrics: open and merged pull requests, contribution calendar" /></a>
+</p>
+<sub>PR 状态与贡献日历由 <a href="https://github.com/lowlighter/metrics">lowlighter/metrics</a> 生成并定期更新。数据来自 GitHub，可能存在更新延迟。</sub>
+
+---
+
+<a id="open-source"></a>
+## 🧩 开源贡献
 
 <!-- CONTRIBUTIONS:START -->
 <p>
@@ -131,6 +136,13 @@
 </details>
 <!-- CONTRIBUTIONS:END -->
 
-<p align="right"><sub><a href="https://github.com/Jun516/Jun516/actions/workflows/refresh-contributions.yml">Auto-update workflow</a> · <a href="https://github.com/pulls?q=is%3Apr+is%3Amerged+author%3AJun516">View all merged PRs</a></sub></p>
+<p align="right"><sub><a href="https://github.com/Jun516/Jun516/actions/workflows/refresh-contributions.yml">自动更新记录</a> · <a href="https://github.com/pulls?q=is%3Apr+is%3Amerged+author%3AJun516">查看全部已合并 PR</a></sub></p>
 
-<!-- 请保留 CONTRIBUTIONS:START / END 标记，自动更新脚本只替换标记之间的内容。 -->
+---
+
+<a id="links"></a>
+## 🔗 相关链接
+
+<p><a href="https://github.com/Jun516?tab=repositories">项目仓库</a> · <a href="https://github.com/pulls?q=is%3Apr+is%3Amerged+author%3AJun516">已合并 PR</a> · <a href="https://hub.xerj.org/contributors/Jun516">XERJ 贡献者主页</a></p>
+
+<!-- Contribution entries between markers are maintained by scripts/update_contributions.py. -->
