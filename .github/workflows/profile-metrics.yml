@@ -50,6 +50,7 @@ jobs:
           committer_branch: ${{ github.ref_name }}
           committer_message: 'chore: refresh GitHub language metrics [skip ci]'
           filename: assets/metrics/languages.svg
+          repositories_affiliations: ''
           output_action: commit
           template: classic
           base: ''
