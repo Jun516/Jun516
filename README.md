@@ -28,7 +28,7 @@
 <p>
   <a href="https://github.com/bytedance/deer-flow"><img align="left" src="https://github.com/bytedance.png?size=64" width="36" height="36" alt="bytedance/deer-flow logo" /></a>
   <a href="https://github.com/bytedance/deer-flow/pulls?q=is%3Apr+is%3Amerged+author%3AJun516"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Jun516/Jun516/main/assets/contribution-stats/bytedance__deer-flow__merged__dark.svg?v=2"><img align="right" src="https://raw.githubusercontent.com/Jun516/Jun516/main/assets/contribution-stats/bytedance__deer-flow__merged__light.svg?v=2" width="156" height="48" alt="4 merged PRs" /></picture></a>
-  <a href="https://github.com/bytedance/deer-flow"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Jun516/Jun516/main/assets/contribution-stats/bytedance__deer-flow__stars__dark.svg?v=2"><img align="right" src="https://raw.githubusercontent.com/Jun516/Jun516/main/assets/contribution-stats/bytedance__deer-flow__stars__light.svg?v=2" width="144" height="48" alt="84.7k stars" /></picture></a>
+  <a href="https://github.com/bytedance/deer-flow"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Jun516/Jun516/main/assets/contribution-stats/bytedance__deer-flow__stars__dark.svg?v=2"><img align="right" src="https://raw.githubusercontent.com/Jun516/Jun516/main/assets/contribution-stats/bytedance__deer-flow__stars__light.svg?v=2" width="144" height="48" alt="84.8k stars" /></picture></a>
   <a href="https://github.com/bytedance/deer-flow"><strong>bytedance/deer-flow</strong></a><br />
   <sub>Python · An open-source long-horizon SuperAgent harness that researches, codes, and cre…</sub>
 </p>
@@ -38,7 +38,7 @@
 <p>
   <a href="https://github.com/QwenLM/qwen-code"><img align="left" src="https://github.com/QwenLM.png?size=64" width="36" height="36" alt="QwenLM/qwen-code logo" /></a>
   <a href="https://github.com/QwenLM/qwen-code/pulls?q=is%3Apr+is%3Amerged+author%3AJun516"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Jun516/Jun516/main/assets/contribution-stats/QwenLM__qwen-code__merged__dark.svg?v=2"><img align="right" src="https://raw.githubusercontent.com/Jun516/Jun516/main/assets/contribution-stats/QwenLM__qwen-code__merged__light.svg?v=2" width="156" height="48" alt="6 merged PRs" /></picture></a>
-  <a href="https://github.com/QwenLM/qwen-code"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Jun516/Jun516/main/assets/contribution-stats/QwenLM__qwen-code__stars__dark.svg?v=2"><img align="right" src="https://raw.githubusercontent.com/Jun516/Jun516/main/assets/contribution-stats/QwenLM__qwen-code__stars__light.svg?v=2" width="144" height="48" alt="28.8k stars" /></picture></a>
+  <a href="https://github.com/QwenLM/qwen-code"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Jun516/Jun516/main/assets/contribution-stats/QwenLM__qwen-code__stars__dark.svg?v=2"><img align="right" src="https://raw.githubusercontent.com/Jun516/Jun516/main/assets/contribution-stats/QwenLM__qwen-code__stars__light.svg?v=2" width="144" height="48" alt="28.9k stars" /></picture></a>
   <a href="https://github.com/QwenLM/qwen-code"><strong>QwenLM/qwen-code</strong></a><br />
   <sub>TypeScript · An open-source AI coding agent that lives in your terminal.</sub>
 </p>
@@ -48,7 +48,7 @@
 <p>
   <a href="https://github.com/xerj-org/xerj"><img align="left" src="https://github.com/xerj-org.png?size=64" width="36" height="36" alt="xerj-org/xerj logo" /></a>
   <a href="https://github.com/xerj-org/xerj/pulls?q=is%3Apr+is%3Amerged+author%3AJun516"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Jun516/Jun516/main/assets/contribution-stats/xerj-org__xerj__merged__dark.svg?v=2"><img align="right" src="https://raw.githubusercontent.com/Jun516/Jun516/main/assets/contribution-stats/xerj-org__xerj__merged__light.svg?v=2" width="156" height="48" alt="4 merged PRs" /></picture></a>
-  <a href="https://github.com/xerj-org/xerj"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Jun516/Jun516/main/assets/contribution-stats/xerj-org__xerj__stars__dark.svg?v=2"><img align="right" src="https://raw.githubusercontent.com/Jun516/Jun516/main/assets/contribution-stats/xerj-org__xerj__stars__light.svg?v=2" width="144" height="48" alt="17.8k stars" /></picture></a>
+  <a href="https://github.com/xerj-org/xerj"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Jun516/Jun516/main/assets/contribution-stats/xerj-org__xerj__stars__dark.svg?v=2"><img align="right" src="https://raw.githubusercontent.com/Jun516/Jun516/main/assets/contribution-stats/xerj-org__xerj__stars__light.svg?v=2" width="144" height="48" alt="18.5k stars" /></picture></a>
   <a href="https://github.com/xerj-org/xerj"><strong>xerj-org/xerj</strong></a><br />
   <sub>Rust · AI search engine and MCP server for bots and agents. One Rust binary indexes c…</sub>
 </p>
@@ -58,7 +58,7 @@
 <p>
   <a href="https://github.com/opensandbox-group/OpenSandbox"><img align="left" src="https://github.com/opensandbox-group.png?size=64" width="36" height="36" alt="opensandbox-group/OpenSandbox logo" /></a>
   <a href="https://github.com/opensandbox-group/OpenSandbox/pulls?q=is%3Apr+is%3Amerged+author%3AJun516"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Jun516/Jun516/main/assets/contribution-stats/opensandbox-group__OpenSandbox__merged__dark.svg?v=2"><img align="right" src="https://raw.githubusercontent.com/Jun516/Jun516/main/assets/contribution-stats/opensandbox-group__OpenSandbox__merged__light.svg?v=2" width="156" height="48" alt="5 merged PRs" /></picture></a>
-  <a href="https://github.com/opensandbox-group/OpenSandbox"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Jun516/Jun516/main/assets/contribution-stats/opensandbox-group__OpenSandbox__stars__dark.svg?v=2"><img align="right" src="https://raw.githubusercontent.com/Jun516/Jun516/main/assets/contribution-stats/opensandbox-group__OpenSandbox__stars__light.svg?v=2" width="144" height="48" alt="16.3k stars" /></picture></a>
+  <a href="https://github.com/opensandbox-group/OpenSandbox"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Jun516/Jun516/main/assets/contribution-stats/opensandbox-group__OpenSandbox__stars__dark.svg?v=2"><img align="right" src="https://raw.githubusercontent.com/Jun516/Jun516/main/assets/contribution-stats/opensandbox-group__OpenSandbox__stars__light.svg?v=2" width="144" height="48" alt="16.4k stars" /></picture></a>
   <a href="https://github.com/opensandbox-group/OpenSandbox"><strong>opensandbox-group/OpenSandbox</strong></a><br />
   <sub>Python · Secure, Fast, and Extensible Sandbox runtime for AI agents.</sub>
 </p>
@@ -68,7 +68,7 @@
 <p>
   <a href="https://github.com/akitaonrails/ai-memory"><img align="left" src="https://github.com/akitaonrails.png?size=64" width="36" height="36" alt="akitaonrails/ai-memory logo" /></a>
   <a href="https://github.com/akitaonrails/ai-memory/pulls?q=is%3Apr+is%3Amerged+author%3AJun516"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Jun516/Jun516/main/assets/contribution-stats/akitaonrails__ai-memory__merged__dark.svg?v=2"><img align="right" src="https://raw.githubusercontent.com/Jun516/Jun516/main/assets/contribution-stats/akitaonrails__ai-memory__merged__light.svg?v=2" width="156" height="48" alt="2 merged PRs" /></picture></a>
-  <a href="https://github.com/akitaonrails/ai-memory"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Jun516/Jun516/main/assets/contribution-stats/akitaonrails__ai-memory__stars__dark.svg?v=2"><img align="right" src="https://raw.githubusercontent.com/Jun516/Jun516/main/assets/contribution-stats/akitaonrails__ai-memory__stars__light.svg?v=2" width="144" height="48" alt="14.6k stars" /></picture></a>
+  <a href="https://github.com/akitaonrails/ai-memory"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Jun516/Jun516/main/assets/contribution-stats/akitaonrails__ai-memory__stars__dark.svg?v=2"><img align="right" src="https://raw.githubusercontent.com/Jun516/Jun516/main/assets/contribution-stats/akitaonrails__ai-memory__stars__light.svg?v=2" width="144" height="48" alt="14.8k stars" /></picture></a>
   <a href="https://github.com/akitaonrails/ai-memory"><strong>akitaonrails/ai-memory</strong></a><br />
   <sub>Rust · Solution for long term memory for agent coding CLIs and to facilitate handoff …</sub>
 </p>
@@ -99,7 +99,7 @@
 <p>
   <a href="https://github.com/plastic-labs/honcho"><img align="left" src="https://github.com/plastic-labs.png?size=64" width="36" height="36" alt="plastic-labs/honcho logo" /></a>
   <a href="https://github.com/plastic-labs/honcho/pulls?q=is%3Apr+is%3Amerged+author%3AJun516"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Jun516/Jun516/main/assets/contribution-stats/plastic-labs__honcho__merged__dark.svg?v=2"><img align="right" src="https://raw.githubusercontent.com/Jun516/Jun516/main/assets/contribution-stats/plastic-labs__honcho__merged__light.svg?v=2" width="156" height="48" alt="1 merged PRs" /></picture></a>
-  <a href="https://github.com/plastic-labs/honcho"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Jun516/Jun516/main/assets/contribution-stats/plastic-labs__honcho__stars__dark.svg?v=2"><img align="right" src="https://raw.githubusercontent.com/Jun516/Jun516/main/assets/contribution-stats/plastic-labs__honcho__stars__light.svg?v=2" width="144" height="48" alt="7.8k stars" /></picture></a>
+  <a href="https://github.com/plastic-labs/honcho"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Jun516/Jun516/main/assets/contribution-stats/plastic-labs__honcho__stars__dark.svg?v=2"><img align="right" src="https://raw.githubusercontent.com/Jun516/Jun516/main/assets/contribution-stats/plastic-labs__honcho__stars__light.svg?v=2" width="144" height="48" alt="7.9k stars" /></picture></a>
   <a href="https://github.com/plastic-labs/honcho"><strong>plastic-labs/honcho</strong></a><br />
   <sub>Python · Memory library for building stateful agents</sub>
 </p>
