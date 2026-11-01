@@ -11,7 +11,7 @@
 </p>
 
 <p>
-  <a href="https://github.com/pulls?q=is%3Apr+is%3Amerged+author%3AJun516"><img src="https://raw.githubusercontent.com/Jun516/Jun516/main/assets/autumn/merged-prs.svg" width="390" alt="26 merged pull requests by Jun516 across GitHub" /></a>
+  <a href="https://github.com/pulls?q=is%3Apr+is%3Amerged+author%3AJun516"><img src="https://raw.githubusercontent.com/Jun516/Jun516/main/assets/autumn/merged-prs.svg" width="390" alt="Total merged pull requests by Jun516 across GitHub (automatically updated)" /></a>
 </p>
 
 <p>
