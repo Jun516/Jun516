@@ -26,6 +26,16 @@
 
 ---
 
+### GitHub activity
+
+<p align="center">
+  <a href="https://github.com/lowlighter/metrics"><img src="https://raw.githubusercontent.com/Jun516/Jun516/main/assets/metrics/profile.svg" width="480" alt="GitHub metrics for Jun516: merged and open pull requests, contribution calendar" /></a>
+</p>
+
+<p align="center"><sub>Pull request status and contribution calendar · Generated with <a href="https://github.com/lowlighter/metrics">lowlighter/metrics</a> · Updated daily</sub></p>
+
+---
+
 ### Open-source contributions
 
 <!-- CONTRIBUTIONS:START -->
