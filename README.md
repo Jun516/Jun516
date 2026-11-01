@@ -1,15 +1,17 @@
 <div align="center">
 
-<h2>Hi, I'm Qiu 👋</h2>
-
-<p><strong>AI Agents · Open Source · Developer Tools</strong></p>
+<a href="https://github.com/Jun516"><img src="https://raw.githubusercontent.com/Jun516/Jun516/main/assets/autumn/hero.svg" width="100%" alt="Jun516 · Autumn Night — AI Agents, Open Source and Developer Tools" /></a>
 
 <p>在真实开源项目里学习 Agent 工程：复现问题、修复缺陷、补充测试，与维护者一起完善产品。</p>
 
 <p>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/AI_Agents-475569?style=flat-square" alt="AI Agents" />
+  <img src="https://img.shields.io/badge/Python-342831?style=flat-square&logo=python&logoColor=E9AD6D" alt="Python" />
+  <img src="https://img.shields.io/badge/TypeScript-342831?style=flat-square&logo=typescript&logoColor=E9AD6D" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/AI_Agents-9B553D?style=flat-square&logoColor=FFFFFF" alt="AI Agents" />
+</p>
+
+<p>
+  <a href="https://github.com/pulls?q=is%3Apr+is%3Amerged+author%3AJun516"><img src="https://raw.githubusercontent.com/Jun516/Jun516/main/assets/autumn/merged-prs.svg" width="390" alt="26 merged pull requests by Jun516 across GitHub" /></a>
 </p>
 
 <p>
@@ -26,7 +28,7 @@
 
 ---
 
-### Open-source contributions
+### 🍁 Open-source contributions
 
 <!-- CONTRIBUTIONS:START -->
 <p>
