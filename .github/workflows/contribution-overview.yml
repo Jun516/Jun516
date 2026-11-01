@@ -1,0 +1,41 @@
+name: Render contribution activity overview
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+      - profile-cards-typing-preview-20261101
+    paths:
+      - '.github/workflows/contribution-overview.yml'
+      - 'scripts/render_contribution_overview.py'
+  schedule:
+    - cron: '17 4 * * *'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: contribution-activity-overview-${{ github.ref_name }}
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Generate real contribution overview from GitHub GraphQL
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 scripts/render_contribution_overview.py
+      - name: Commit refreshed overview
+        run: |
+          git add assets/metrics/contribution-overview.svg
+          if git diff --cached --quiet; then
+            echo "No changes"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "chore: update contribution activity overview [skip ci]"
+          git push
