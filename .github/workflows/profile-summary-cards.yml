@@ -19,6 +19,9 @@ jobs:
   generate:
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout profile repository
+        uses: actions/checkout@v4
+
       - name: Generate real GitHub profile summary cards
         uses: vn7n24fzkq/github-profile-summary-cards@release
         env:
