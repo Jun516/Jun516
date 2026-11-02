@@ -39,6 +39,11 @@
 ## 📊 GitHub 数据
 
 <p align="center">
+  <a href="https://jun516.github.io/Jun516/"><img src="https://img.shields.io/badge/OPEN_SOURCE_OBSERVATORY-Interactive_Dashboard-17364A?style=for-the-badge&logo=github&logoColor=8DDFE7" alt="进入交互式开源贡献数据中心" /></a>
+</p>
+<p align="center"><sub>🌌 <a href="https://jun516.github.io/Jun516/">交互式 PR 数据中心</a> · 贡献热力图 · 项目关系星图 · 贡献时间线 · 轻量粒子效果（首次使用需启用 GitHub Pages）</sub></p>
+
+<p align="center">
   <img src="./profile-summary-card-output/github/0-profile-details.svg" width="700" alt="GitHub activity trend over the last year for Jun516" />
 </p>
 <p align="center">
