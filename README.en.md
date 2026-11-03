@@ -89,8 +89,8 @@
 
 <p>
   <a href="https://github.com/xerj-org/xerj"><img align="left" src="https://github.com/xerj-org.png?size=64" width="36" height="36" alt="xerj-org/xerj logo" /></a>
-  <a href="https://github.com/xerj-org/xerj/pulls?q=is%3Apr+is%3Amerged+author%3AJun516"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Jun516/Jun516/main/assets/contribution-stats/xerj-org__xerj__merged__dark.svg?v=2"><img align="right" src="https://raw.githubusercontent.com/Jun516/Jun516/main/assets/contribution-stats/xerj-org__xerj__merged__light.svg?v=2" width="156" height="48" alt="5 merged PRs" /></picture></a>
-  <a href="https://github.com/xerj-org/xerj"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Jun516/Jun516/main/assets/contribution-stats/xerj-org__xerj__stars__dark.svg?v=2"><img align="right" src="https://raw.githubusercontent.com/Jun516/Jun516/main/assets/contribution-stats/xerj-org__xerj__stars__light.svg?v=2" width="144" height="48" alt="18.7k stars" /></picture></a>
+  <a href="https://github.com/xerj-org/xerj/pulls?q=is%3Apr+is%3Amerged+author%3AJun516"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Jun516/Jun516/main/assets/contribution-stats/xerj-org__xerj__merged__dark.svg?v=2"><img align="right" src="https://raw.githubusercontent.com/Jun516/Jun516/main/assets/contribution-stats/xerj-org__xerj__merged__light.svg?v=2" width="156" height="48" alt="6 merged PRs" /></picture></a>
+  <a href="https://github.com/xerj-org/xerj"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Jun516/Jun516/main/assets/contribution-stats/xerj-org__xerj__stars__dark.svg?v=2"><img align="right" src="https://raw.githubusercontent.com/Jun516/Jun516/main/assets/contribution-stats/xerj-org__xerj__stars__light.svg?v=2" width="144" height="48" alt="18.9k stars" /></picture></a>
   <a href="https://github.com/xerj-org/xerj"><strong>xerj-org/xerj</strong></a><br />
   <sub>Rust · AI search engine and MCP server for bots and agents. One Rust binary indexes c…</sub>
 </p>
@@ -110,7 +110,7 @@
 <p>
   <a href="https://github.com/akitaonrails/ai-memory"><img align="left" src="https://github.com/akitaonrails.png?size=64" width="36" height="36" alt="akitaonrails/ai-memory logo" /></a>
   <a href="https://github.com/akitaonrails/ai-memory/pulls?q=is%3Apr+is%3Amerged+author%3AJun516"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Jun516/Jun516/main/assets/contribution-stats/akitaonrails__ai-memory__merged__dark.svg?v=2"><img align="right" src="https://raw.githubusercontent.com/Jun516/Jun516/main/assets/contribution-stats/akitaonrails__ai-memory__merged__light.svg?v=2" width="156" height="48" alt="2 merged PRs" /></picture></a>
-  <a href="https://github.com/akitaonrails/ai-memory"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Jun516/Jun516/main/assets/contribution-stats/akitaonrails__ai-memory__stars__dark.svg?v=2"><img align="right" src="https://raw.githubusercontent.com/Jun516/Jun516/main/assets/contribution-stats/akitaonrails__ai-memory__stars__light.svg?v=2" width="144" height="48" alt="14.9k stars" /></picture></a>
+  <a href="https://github.com/akitaonrails/ai-memory"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Jun516/Jun516/main/assets/contribution-stats/akitaonrails__ai-memory__stars__dark.svg?v=2"><img align="right" src="https://raw.githubusercontent.com/Jun516/Jun516/main/assets/contribution-stats/akitaonrails__ai-memory__stars__light.svg?v=2" width="144" height="48" alt="15.0k stars" /></picture></a>
   <a href="https://github.com/akitaonrails/ai-memory"><strong>akitaonrails/ai-memory</strong></a><br />
   <sub>Rust · Solution for long term memory for agent coding CLIs and to facilitate handoff …</sub>
 </p>
@@ -151,7 +151,7 @@
 <p>
   <a href="https://github.com/gepa-ai/gepa"><img align="left" src="https://github.com/gepa-ai.png?size=64" width="36" height="36" alt="gepa-ai/gepa logo" /></a>
   <a href="https://github.com/gepa-ai/gepa/pulls?q=is%3Apr+is%3Amerged+author%3AJun516"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Jun516/Jun516/main/assets/contribution-stats/gepa-ai__gepa__merged__dark.svg?v=2"><img align="right" src="https://raw.githubusercontent.com/Jun516/Jun516/main/assets/contribution-stats/gepa-ai__gepa__merged__light.svg?v=2" width="156" height="48" alt="1 merged PRs" /></picture></a>
-  <a href="https://github.com/gepa-ai/gepa"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Jun516/Jun516/main/assets/contribution-stats/gepa-ai__gepa__stars__dark.svg?v=2"><img align="right" src="https://raw.githubusercontent.com/Jun516/Jun516/main/assets/contribution-stats/gepa-ai__gepa__stars__light.svg?v=2" width="144" height="48" alt="7.2k stars" /></picture></a>
+  <a href="https://github.com/gepa-ai/gepa"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Jun516/Jun516/main/assets/contribution-stats/gepa-ai__gepa__stars__dark.svg?v=2"><img align="right" src="https://raw.githubusercontent.com/Jun516/Jun516/main/assets/contribution-stats/gepa-ai__gepa__stars__light.svg?v=2" width="144" height="48" alt="7.3k stars" /></picture></a>
   <a href="https://github.com/gepa-ai/gepa"><strong>gepa-ai/gepa</strong></a><br />
   <sub>Jupyter Notebook · Optimize prompts, code, and more with AI-powered Reflective Optimization</sub>
 </p>
