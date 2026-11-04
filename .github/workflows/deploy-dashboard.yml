@@ -42,6 +42,7 @@ jobs:
           node --test tests/test_model.mjs
           node --check dashboard/app.mjs
           node --check dashboard/model.mjs
+          node --check dashboard/cases.mjs
       - name: Fetch real GitHub activity snapshot
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

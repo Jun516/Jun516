@@ -18,6 +18,7 @@
       <a class="top-link" href="https://github.com/Jun516/Jun516" target="_blank" rel="noopener noreferrer" data-i18n="sourceLink">源码</a>
       <button type="button" id="langBtn" class="pill" aria-label="Switch language">EN</button>
       <button type="button" id="themeBtn" class="icon-btn" aria-label="Toggle color theme" title="Toggle color theme">◐</button>
+      <button type="button" id="motionBtn" class="pill motion-btn" aria-pressed="true">动效开</button>
     </div>
   </header>
 
@@ -27,29 +28,43 @@
       <div class="hero-copy">
         <p class="eyebrow"><span class="status-light"></span> <span data-i18n="live">GITHUB · OPEN SOURCE SIGNAL</span></p>
         <h1 id="heroTitle">CODE<span class="accent"> / </span>SIGNAL<span class="period">.</span></h1>
+        <p class="hero-role" data-i18n="role">AI AGENT / AI APPLICATION FULL STACK</p>
         <p class="hero-lead" data-i18n="lead">把真实的开源贡献，变成可以探索的数据故事。</p>
         <p class="hero-sub" data-i18n="sublead">PR 状态、贡献日历、项目关联与时间线，均由公开 GitHub 数据生成。</p>
         <div class="hero-cta"><a class="btn-primary" href="#pr-center" data-i18n="explore">探索贡献数据 ↘</a><a class="btn-quiet" href="https://github.com/Jun516" target="_blank" rel="noopener noreferrer">github.com/Jun516 ↗</a></div>
+        <p class="hero-proof" data-i18n="heroProof">从真实问题到可验证的修复 · 每个案例均可追溯至上游 PR</p>
       </div>
       <div class="hero-orbit" aria-hidden="true"><div class="orbit orb-1"></div><div class="orbit orb-2"></div><div class="orbit orb-3"></div><span class="orbit-core">J</span></div>
       <div class="hero-footer"><span data-i18n="labelEdition">OPEN SOURCE / 2026</span><span id="updatedAt" aria-live="polite">DATA —</span></div>
+    </section>
+
+    <nav class="section-nav" aria-label="Page sections"><a href="#cases" data-i18n="navCases">贡献案例</a><a href="#pr-center" data-i18n="navData">数据探索</a><a href="#heatmap" data-i18n="navCalendar">贡献日历</a><a href="#constellation" data-i18n="navGraph">项目星图</a></nav>
+
+    <section class="section" id="cases" aria-labelledby="casesTitle">
+      <div class="section-header"><div><p class="section-kicker">SELECTED / ENGINEERING NOTES</p><h2 id="casesTitle" data-i18n="casesTitle">修复背后的工程问题</h2><p class="section-desc" data-i18n="casesDesc">精选贡献记录：问题、改动与验证证据。分类用于浏览，不代表技能评级。</p></div></div>
+      <div id="caseTopicBtns" class="chip-row case-filter" role="group" aria-label="Case topics"><button type="button" class="chip active" data-topic="all" aria-pressed="true" data-i18n="topicAll">全部方向</button><button type="button" class="chip" data-topic="agent" aria-pressed="false">Agent</button><button type="button" class="chip" data-topic="mcp" aria-pressed="false">MCP</button><button type="button" class="chip" data-topic="fullstack" aria-pressed="false" data-i18n="topicFullstack">AI 全栈</button></div>
+      <div id="caseGrid" class="case-grid"></div>
     </section>
 
     <div class="alert" id="dataAlert" role="status" hidden></div>
 
     <section class="section" id="pr-center" aria-labelledby="statsTitle">
       <div class="section-header"><div><p class="section-kicker">01 / PR INTELLIGENCE</p><h2 id="statsTitle" data-i18n="prTitle">开源贡献总览</h2><p class="section-desc" data-i18n="prDesc">追踪所有提交至上游的 PR，而不只统计个人仓库。</p></div><a href="https://github.com/pulls?q=is%3Apr+author%3AJun516" class="external" target="_blank" rel="noopener noreferrer" data-i18n="viewAll">在 GitHub 查看全部 ↗</a></div>
-      <div class="stat-grid" id="statGrid" aria-live="polite">
-        <article class="metric"><span class="metric-caption" data-i18n="all">PR 总计</span><strong id="totalCount">—</strong><span class="metric-hint">TOTAL CONTRIBUTIONS</span></article>
+      <p id="filterSummary" class="filter-summary" role="status" aria-live="polite"></p>
+      <div class="stat-grid" id="statGrid">
+        <article class="metric"><span class="metric-caption" data-i18n="all">PR 总计</span><strong id="totalCount">—</strong><span class="metric-hint">UPSTREAM PULL REQUESTS</span></article>
         <article class="metric"><span class="metric-caption" data-i18n="merged">已合并</span><strong id="mergedCount">—</strong><span class="metric-hint mint">MERGED</span></article>
         <article class="metric"><span class="metric-caption" data-i18n="open">进行中</span><strong id="openCount">—</strong><span class="metric-hint sky">OPEN</span></article>
         <article class="metric"><span class="metric-caption" data-i18n="closed">关闭未合并</span><strong id="closedCount">—</strong><span class="metric-hint amber">CLOSED · UNMERGED</span></article>
       </div>
       <div class="panel filter-panel">
         <div class="filter-heading"><span data-i18n="filter">FILTER / EXPLORE</span><button type="button" id="resetBtn" class="reset-btn" data-i18n="reset">清除筛选 ↺</button></div>
+        <div class="filters query-controls"><div class="control query-control"><label for="queryInput" data-i18n="searchLabel">搜索标题、仓库或 PR 编号</label><input id="queryInput" type="search" autocomplete="off" aria-controls="prList" /></div><div class="control"><label for="sortSelect" data-i18n="sortLabel">排列方式</label><select id="sortSelect"><option value="recent" data-i18n="sortRecent">最近事件优先</option><option value="oldest" data-i18n="sortOldest">最早事件优先</option><option value="repo" data-i18n="sortRepo">按仓库名称</option></select></div></div>
+        <fieldset class="control topic-control"><legend data-i18n="topicLabel">贡献方向</legend><div id="topicBtns" class="chip-row"><button type="button" class="chip active" data-topic="all" aria-pressed="true" data-i18n="topicAll">全部方向</button><button type="button" class="chip" data-topic="agent" aria-pressed="false">Agent</button><button type="button" class="chip" data-topic="mcp" aria-pressed="false">MCP</button><button type="button" class="chip" data-topic="fullstack" aria-pressed="false" data-i18n="topicFullstack">AI 全栈</button><button type="button" class="chip" data-topic="other" aria-pressed="false" data-i18n="topicOther">其他</button></div></fieldset>
         <div class="filters"><div class="control"><label for="repoSelect" data-i18n="repository">仓库</label><select id="repoSelect"><option value="all">All repositories</option></select></div><fieldset class="control state-filter"><legend data-i18n="status">状态</legend><div id="stateBtns" class="chip-row"><button type="button" data-state="all" aria-pressed="true" class="chip active">ALL</button><button type="button" data-state="merged" aria-pressed="false" class="chip">MERGED</button><button type="button" data-state="open" aria-pressed="false" class="chip">OPEN</button><button type="button" data-state="closed" aria-pressed="false" class="chip">CLOSED</button></div></fieldset><fieldset class="control"><legend data-i18n="range">时间范围</legend><div id="rangeBtns" class="chip-row"><button type="button" data-range="all" aria-pressed="true" class="chip active">ALL</button><button type="button" data-range="90" aria-pressed="false" class="chip">90D</button><button type="button" data-range="365" aria-pressed="false" class="chip">1Y</button></div></fieldset></div>
+        <div id="activeFilters" class="active-filters" aria-label="Active filters"></div>
       </div>
-      <div class="duo-grid"><article class="panel viz-panel"><div class="panel-title-row"><div><h3 data-i18n="projects">各仓库 PR 分布</h3><p data-i18n="projectsDesc">选择条形可筛选仓库</p></div><span class="mini-label">REPOSITORIES</span></div><div id="repoBars" class="bars" aria-live="polite"></div></article><article class="panel viz-panel"><div class="panel-title-row"><div><h3 data-i18n="activity">最近 8 个月事件</h3><p data-i18n="activityDesc">按 PR 当前状态对应的事件日期统计</p></div><span class="mini-label">MONTHLY ACTIVITY</span></div><div id="trend" class="trend" role="img" aria-label="Monthly PR events"></div><div class="legend"><span><i class="lg-merged"></i> MERGED</span><span><i class="lg-open"></i> OPEN</span><span><i class="lg-closed"></i> CLOSED</span></div></article></div>
+      <div class="duo-grid"><article class="panel viz-panel"><div class="panel-title-row"><div><h3 data-i18n="projects">各仓库 PR 分布</h3><p data-i18n="projectsDesc">选择条形可筛选仓库</p></div><span class="mini-label">REPOSITORIES</span></div><div id="repoBars" class="bars" aria-live="polite"></div></article><article class="panel viz-panel"><div class="panel-title-row"><div><h3 data-i18n="activity">最近 8 个月事件</h3><p data-i18n="activityDesc">按 PR 当前状态对应的事件日期统计</p></div><span class="mini-label">MONTHLY ACTIVITY</span></div><div id="trend" class="trend" role="group" aria-label="Monthly PR event filters"></div><div class="legend"><span><i class="lg-merged"></i> MERGED</span><span><i class="lg-open"></i> OPEN</span><span><i class="lg-closed"></i> CLOSED</span></div></article></div>
       <article class="panel pr-panel"><div class="panel-title-row"><div><h3 data-i18n="prList">PR 明细</h3><p id="prShowing">—</p></div><a class="external" href="https://github.com/pulls?q=is%3Apr+author%3AJun516" target="_blank" rel="noopener noreferrer" data-i18n="moreOnGithub">完整搜索 ↗</a></div><div id="prList" class="pr-list"></div><div class="list-footer"><button type="button" id="showMoreBtn" class="btn-more" data-i18n="showMore">显示更多 ↓</button></div></article>
     </section>
 

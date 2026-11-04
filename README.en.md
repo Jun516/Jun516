@@ -41,7 +41,7 @@
 <p align="center">
   <a href="https://jun516.github.io/Jun516/"><img src="https://img.shields.io/badge/OPEN_SOURCE_OBSERVATORY-Interactive_Dashboard-17364A?style=for-the-badge&logo=github&logoColor=8DDFE7" alt="Explore the interactive open-source dashboard" /></a>
 </p>
-<p align="center"><sub>🌌 <a href="https://jun516.github.io/Jun516/">Interactive PR explorer</a> · Contribution heatmap · Project constellation · Activity timeline · Subtle particles (requires GitHub Pages activation)</sub></p>
+<p align="center"><sub>🌌 <a href="https://jun516.github.io/Jun516/">Explore the interactive profile</a> · Engineering cases and evidence · Search and combined filters · Date drill-down · Project map · Optional subtle particles</sub></p>
 
 <p align="center">
   <img src="./profile-summary-card-output/github/0-profile-details.svg" width="700" alt="GitHub activity trend over the last year for Jun516" />

@@ -4,11 +4,12 @@ An independent, static, interactive companion to the existing [GitHub profile](h
 
 ## Capabilities
 
-1. **PR intelligence** — Open/Merged/Closed-unmerged counts, repository and status filters, 90-day/year filters, drill-down and links to the original PRs.
-2. **Contribution calendar** — 7/30/90/365 day view, hover/focus tooltips, native GitHub GraphQL contribution counts.
+1. **PR intelligence** — Open/Merged/Closed-unmerged counts, title/repository/number search, project-focus, repository, status and 90-day/year filters, sorting, and removable filter tokens. Repository charts retain other repositories for comparison; the month chart retains other months.
+2. **Contribution calendar** — 7/30/90/365 day view, hover/focus tooltips, native GitHub GraphQL contribution counts. Selecting a day or month filters PR current-state events in UTC, and selecting it again clears the date filter. Calendar totals include other activity, so a day can have contributions but no matching PR events.
 3. **Project constellation** — interactive SVG repository nodes, keyboard navigation, filtering across panels.
-4. **Contribution timeline** — PR lifecycle event timestamps and links to upstream activity.
-5. **Light particles** — bounded canvas rendering at ~30fps, reduced-motion support, fewer particles on mobile.
+4. **Contribution timeline** — Each PR's current-state event timestamp and links to upstream activity; this is not a full lifecycle history.
+5. **Selected engineering cases** — Four bilingual records link problems, changes, and reported verification to original upstream PRs. Validation text attributes historical evidence to the PR, rather than claiming those suites were rerun for this site. Case topics are independently curated; project-focus filters use an explicit repository taxonomy, not an inference about each PR or skill level. Case status comes from the snapshot, with a live-link fallback.
+6. **Light particles** — Bounded canvas rendering at ~30fps, reduced-motion support, fewer particles on mobile, a persistent motion toggle, and no animation loop while the hero is offscreen or the tab is hidden.
 
 The dashboard also includes bilingual UI, a theme toggle, responsive layout, keyboard-focus states, and explicit data freshness. SVG/Canvas visualizations are implemented without third-party runtime packages for repeatable builds and small download size. No GitHub token is delivered to the browser.
 
