@@ -10,14 +10,14 @@
     <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=42&duration=3200&pause=1100&color=24292F&center=true&vCenter=true&repeat=true&width=850&height=104&lines=Hi%2C+I%27m+Qiu;Building+AI+Agents;Contributing+to+Open+Source" width="850" alt="Animated introduction: Hi, I'm Qiu · Building AI Agents · Contributing to Open Source" />
   </picture>
 </p>
-<p><strong>Agent 开发 · 开源贡献 · 开发者工具</strong></p>
-<p>通过真实项目学习软件工程：定位问题、复现缺陷、编写测试，持续改进代码。</p>
+<p><strong>AI Agent Engineer · Open-Source Contributor · Systems &amp; Developer Tooling</strong></p>
+<p>Building reliable agent harnesses, sandboxes, MCP tooling, and persistent memory systems — 34+ merged PRs across open-source AI infrastructure.</p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
   <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
   <img src="https://img.shields.io/badge/AI_Agents-475569?style=flat-square" alt="AI Agents" />
-</p>
+</p> <p align="center"><code>Python</code> · <code>TypeScript</code> · <code>Rust</code> · <code>AI Agents</code> · <code>MCP</code> · <code>Sandbox</code> · <code>Agent Memory</code> · <strong>34+ Merged PRs</strong></p>
 <p align="center">
   <a href="https://hub.xerj.org/contributors/Jun516"><img src="https://hub.xerj.org/contributors/Jun516/badge.svg" alt="XERJ Corpus Hub contributor" /></a>
 </p>
@@ -27,11 +27,14 @@
 ---
 
 <a id="about-me"></a>
-## 👋 关于我
-
-- 🛠️ **当前关注：** AI Agent、开发者工具与工程实践。
-- 🔎 **开源实践：** 从可复现的问题入手，尽量提供小范围修复及回归测试。
-- 📚 **学习方式：** 阅读现有项目的代码和设计，再通过真实问题验证自己的理解。
+## Engineering Focus
+- **Focus:** Agent runtimes, sandbox execution isolation, MCP tooling, and persistent agent memory.
+- **Approach:** Root-cause debugging, minimal targeted fixes, and regression tests across Python, TypeScript, and Rust.
+## Selected Engineering Work
+- **bytedance/deer-flow** (bytedance/deer-flow#7782) — Deferred fresh AIO skill-policy acquisition in the agent sandbox runtime.
+- **QwenLM/qwen-code** (QwenLM/qwen-code#15181) — Reported provider-specific output budgets in batch readiness checks.
+- **opensandbox-group/OpenSandbox** (opensandbox-group/OpenSandbox#2257) — Omitted invalid upper usage metrics on execd scan errors.
+- **xerj-org/xerj** (xerj-org/xerj#2845) — Enforced raw request byte limits on field-report ingestion.
 
 ---
 
