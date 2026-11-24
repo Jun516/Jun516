@@ -70,7 +70,7 @@
 <p>
   <a href="https://github.com/bytedance/deer-flow"><img align="left" src="https://github.com/bytedance.png?size=64" width="36" height="36" alt="bytedance/deer-flow logo" /></a>
   <a href="https://github.com/bytedance/deer-flow/pulls?q=is%3Apr+is%3Amerged+author%3AJun516"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Jun516/Jun516/main/assets/contribution-stats/bytedance__deer-flow__merged__dark.svg?v=2"><img align="right" src="https://raw.githubusercontent.com/Jun516/Jun516/main/assets/contribution-stats/bytedance__deer-flow__merged__light.svg?v=2" width="156" height="48" alt="5 merged PRs" /></picture></a>
-  <a href="https://github.com/bytedance/deer-flow"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Jun516/Jun516/main/assets/contribution-stats/bytedance__deer-flow__stars__dark.svg?v=2"><img align="right" src="https://raw.githubusercontent.com/Jun516/Jun516/main/assets/contribution-stats/bytedance__deer-flow__stars__light.svg?v=2" width="144" height="48" alt="85.6k stars" /></picture></a>
+  <a href="https://github.com/bytedance/deer-flow"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Jun516/Jun516/main/assets/contribution-stats/bytedance__deer-flow__stars__dark.svg?v=2"><img align="right" src="https://raw.githubusercontent.com/Jun516/Jun516/main/assets/contribution-stats/bytedance__deer-flow__stars__light.svg?v=2" width="144" height="48" alt="85.7k stars" /></picture></a>
   <a href="https://github.com/bytedance/deer-flow"><strong>bytedance/deer-flow</strong></a><br />
   <sub>Python · An open-source long-horizon SuperAgent harness that researches, codes, and cre…</sub>
 </p>
@@ -90,7 +90,7 @@
 <p>
   <a href="https://github.com/xerj-org/xerj"><img align="left" src="https://github.com/xerj-org.png?size=64" width="36" height="36" alt="xerj-org/xerj logo" /></a>
   <a href="https://github.com/xerj-org/xerj/pulls?q=is%3Apr+is%3Amerged+author%3AJun516"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Jun516/Jun516/main/assets/contribution-stats/xerj-org__xerj__merged__dark.svg?v=2"><img align="right" src="https://raw.githubusercontent.com/Jun516/Jun516/main/assets/contribution-stats/xerj-org__xerj__merged__light.svg?v=2" width="156" height="48" alt="6 merged PRs" /></picture></a>
-  <a href="https://github.com/xerj-org/xerj"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Jun516/Jun516/main/assets/contribution-stats/xerj-org__xerj__stars__dark.svg?v=2"><img align="right" src="https://raw.githubusercontent.com/Jun516/Jun516/main/assets/contribution-stats/xerj-org__xerj__stars__light.svg?v=2" width="144" height="48" alt="19.9k stars" /></picture></a>
+  <a href="https://github.com/xerj-org/xerj"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Jun516/Jun516/main/assets/contribution-stats/xerj-org__xerj__stars__dark.svg?v=2"><img align="right" src="https://raw.githubusercontent.com/Jun516/Jun516/main/assets/contribution-stats/xerj-org__xerj__stars__light.svg?v=2" width="144" height="48" alt="20.8k stars" /></picture></a>
   <a href="https://github.com/xerj-org/xerj"><strong>xerj-org/xerj</strong></a><br />
   <sub>Rust · AI search engine and MCP server for bots and agents. One Rust binary indexes c…</sub>
 </p>
@@ -100,7 +100,7 @@
 <p>
   <a href="https://github.com/opensandbox-group/OpenSandbox"><img align="left" src="https://github.com/opensandbox-group.png?size=64" width="36" height="36" alt="opensandbox-group/OpenSandbox logo" /></a>
   <a href="https://github.com/opensandbox-group/OpenSandbox/pulls?q=is%3Apr+is%3Amerged+author%3AJun516"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Jun516/Jun516/main/assets/contribution-stats/opensandbox-group__OpenSandbox__merged__dark.svg?v=2"><img align="right" src="https://raw.githubusercontent.com/Jun516/Jun516/main/assets/contribution-stats/opensandbox-group__OpenSandbox__merged__light.svg?v=2" width="156" height="48" alt="5 merged PRs" /></picture></a>
-  <a href="https://github.com/opensandbox-group/OpenSandbox"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Jun516/Jun516/main/assets/contribution-stats/opensandbox-group__OpenSandbox__stars__dark.svg?v=2"><img align="right" src="https://raw.githubusercontent.com/Jun516/Jun516/main/assets/contribution-stats/opensandbox-group__OpenSandbox__stars__light.svg?v=2" width="144" height="48" alt="17.8k stars" /></picture></a>
+  <a href="https://github.com/opensandbox-group/OpenSandbox"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Jun516/Jun516/main/assets/contribution-stats/opensandbox-group__OpenSandbox__stars__dark.svg?v=2"><img align="right" src="https://raw.githubusercontent.com/Jun516/Jun516/main/assets/contribution-stats/opensandbox-group__OpenSandbox__stars__light.svg?v=2" width="144" height="48" alt="17.9k stars" /></picture></a>
   <a href="https://github.com/opensandbox-group/OpenSandbox"><strong>opensandbox-group/OpenSandbox</strong></a><br />
   <sub>Go · Secure, Fast, and Extensible Sandbox runtime for AI agents.</sub>
 </p>
@@ -141,7 +141,7 @@
 <p>
   <a href="https://github.com/plastic-labs/honcho"><img align="left" src="https://github.com/plastic-labs.png?size=64" width="36" height="36" alt="plastic-labs/honcho logo" /></a>
   <a href="https://github.com/plastic-labs/honcho/pulls?q=is%3Apr+is%3Amerged+author%3AJun516"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Jun516/Jun516/main/assets/contribution-stats/plastic-labs__honcho__merged__dark.svg?v=2"><img align="right" src="https://raw.githubusercontent.com/Jun516/Jun516/main/assets/contribution-stats/plastic-labs__honcho__merged__light.svg?v=2" width="156" height="48" alt="1 merged PRs" /></picture></a>
-  <a href="https://github.com/plastic-labs/honcho"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Jun516/Jun516/main/assets/contribution-stats/plastic-labs__honcho__stars__dark.svg?v=2"><img align="right" src="https://raw.githubusercontent.com/Jun516/Jun516/main/assets/contribution-stats/plastic-labs__honcho__stars__light.svg?v=2" width="144" height="48" alt="8.2k stars" /></picture></a>
+  <a href="https://github.com/plastic-labs/honcho"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Jun516/Jun516/main/assets/contribution-stats/plastic-labs__honcho__stars__dark.svg?v=2"><img align="right" src="https://raw.githubusercontent.com/Jun516/Jun516/main/assets/contribution-stats/plastic-labs__honcho__stars__light.svg?v=2" width="144" height="48" alt="8.3k stars" /></picture></a>
   <a href="https://github.com/plastic-labs/honcho"><strong>plastic-labs/honcho</strong></a><br />
   <sub>Python · Memory library for building stateful agents</sub>
 </p>
@@ -151,7 +151,7 @@
 <p>
   <a href="https://github.com/gepa-ai/gepa"><img align="left" src="https://github.com/gepa-ai.png?size=64" width="36" height="36" alt="gepa-ai/gepa logo" /></a>
   <a href="https://github.com/gepa-ai/gepa/pulls?q=is%3Apr+is%3Amerged+author%3AJun516"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Jun516/Jun516/main/assets/contribution-stats/gepa-ai__gepa__merged__dark.svg?v=2"><img align="right" src="https://raw.githubusercontent.com/Jun516/Jun516/main/assets/contribution-stats/gepa-ai__gepa__merged__light.svg?v=2" width="156" height="48" alt="1 merged PRs" /></picture></a>
-  <a href="https://github.com/gepa-ai/gepa"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Jun516/Jun516/main/assets/contribution-stats/gepa-ai__gepa__stars__dark.svg?v=2"><img align="right" src="https://raw.githubusercontent.com/Jun516/Jun516/main/assets/contribution-stats/gepa-ai__gepa__stars__light.svg?v=2" width="144" height="48" alt="7.5k stars" /></picture></a>
+  <a href="https://github.com/gepa-ai/gepa"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Jun516/Jun516/main/assets/contribution-stats/gepa-ai__gepa__stars__dark.svg?v=2"><img align="right" src="https://raw.githubusercontent.com/Jun516/Jun516/main/assets/contribution-stats/gepa-ai__gepa__stars__light.svg?v=2" width="144" height="48" alt="7.6k stars" /></picture></a>
   <a href="https://github.com/gepa-ai/gepa"><strong>gepa-ai/gepa</strong></a><br />
   <sub>Jupyter Notebook · Optimize prompts, code, and more with AI-powered Reflective Optimization</sub>
 </p>
